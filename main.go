@@ -25,12 +25,12 @@ func FinChangeFile(list []models.GroupLine) {
 	for _, group := range list {
 		for _, line := range group.ListFile {
 			var newFile string
-			input, _ := ioutil.ReadFile(group.Patch + "/" + line.File)
+			input, _ := ioutil.ReadFile(line.File)
 			newFile = string(input)
 			for _, v := range line.ListLine {
-				newFile = strings.Replace(newFile, v.Old, v.New, -1)
+				newFile = strings.Replace(newFile, v.Old, v.New, 1)
 			}
-			err2 := ioutil.WriteFile(group.Patch + "/" + line.File, []byte(newFile), 0644)
+			err2 := ioutil.WriteFile(line.File, []byte(newFile), 0644)
 			if err2 != nil {
 				fmt.Println(err2)
 			}
