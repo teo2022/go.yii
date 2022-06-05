@@ -10,7 +10,8 @@ import (
 
 func main() {
 	listUp := []string{"controllers", "views", "models", "data"}
-	TeoStartGenerate("/Users/alex/Downloads/zh/bondus.mir-crm.loc",listUp)
+	//listUp := []string{"views"}
+	TeoStartGenerate("/Users/alex/Downloads/zh/loyalty.mir-crm.com", listUp)
 }
 
 func TeoStartGenerate(patch string, listUp []string) {
@@ -18,7 +19,7 @@ func TeoStartGenerate(patch string, listUp []string) {
 	listStructure := controller.GetStruct(AllFolder, listUp)
 	gen := controller.GenerateTag(listStructure)
 	fmt.Println(gen)
-	//FinChangeFile(gen)
+	FinChangeFile(gen)
 }
 
 func FinChangeFile(list []models.GroupLine) {
