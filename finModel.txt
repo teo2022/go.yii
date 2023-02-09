@@ -1,0 +1,2458 @@
+$headers->set('Content-Disposition', "attachment; filename=Рейсы.xls");  ->  $headers->set('Content-Disposition', "attachment; filename=".\Yii::t('app', 'Рейсы.xls')); 
+
+'title'=> "Загружения",  ->  'title'=> \Yii::t('app', 'Загружения'), 
+
+'content'=>"Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error}",  ->  'content'=>\Yii::t('app', 'Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error}'), 
+
+'title'=> "Загружения",  ->  'title'=> \Yii::t('app', 'Загружения'), 
+
+'content'=>"<span class='text-danger'>Ошибка при загрузке файла</span>",  ->  'content'=>"<span class='text-danger'>".\Yii::t('app', 'Ошибка при загрузке файла')."</span>", 
+
+'title'=> "<span class='text-danger'>Выберите файл</span>",  ->  'title'=> "<span class='text-danger'>".\Yii::t('app', 'Выберите файл')."</span>", 
+
+'content'=>'<span class="text-success">Создание Услуг успешно завершено</span>',  ->  'content'=>'<span class="text-success">'.\Yii::t('app', 'Создание Услуг успешно завершено').'</span>', 
+
+'footer'=> Html::button('ОК',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'ОК'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::a('Создать еще',['create'],['class'=>'btn btn-primary','role'=>'modal-remote'])  ->  Html::a(\Yii::t('app', 'Создать еще'),['create'],['class'=>'btn btn-primary','role'=>'modal-remote']) 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+'title'=> "Загружения",  ->  'title'=> \Yii::t('app', 'Загружения'), 
+
+'content'=>"Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error}",  ->  'content'=>\Yii::t('app', 'Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error}'), 
+
+'title'=> "Загружения",  ->  'title'=> \Yii::t('app', 'Загружения'), 
+
+'content'=>"<span class='text-danger'>Ошибка при загрузке файла</span>",  ->  'content'=>"<span class='text-danger'>".\Yii::t('app', 'Ошибка при загрузке файла')."</span>", 
+
+'title'=> "<span class='text-danger'>Выберите файл</span>",  ->  'title'=> "<span class='text-danger'>".\Yii::t('app', 'Выберите файл')."</span>", 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+'title' => "Заявка #{$reserv->id}",  ->  'title' => \Yii::t('app', 'Заявка #{$reserv->id}'), 
+
+//            'title'=> "Отмена заявки",  ->  //            'title'=> \Yii::t('app', 'Отмена заявки'), 
+
+//            'content'=> "<span class='text-success'>Заявка отменена</span>",  ->  //            'content'=> "<span class='text-success'>".\Yii::t('app', 'Заявка отменена')."</span>", 
+
+//            'title'=> "Отмена заявки",  ->  //            'title'=> \Yii::t('app', 'Отмена заявки'), 
+
+//            'content'=> "<span class='text-success'>Заявка отменена</span>",  ->  //            'content'=> "<span class='text-success'>".\Yii::t('app', 'Заявка отменена')."</span>", 
+
+'title'=> "Добавить Онлайн Запись",  ->  'title'=> \Yii::t('app', 'Добавить Онлайн Запись'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Создать',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Создать'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Добавить Онлайн Запись",  ->  'title'=> \Yii::t('app', 'Добавить Онлайн Запись'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Создать',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Создать'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Добавить Онлайн Запись",  ->  'title'=> \Yii::t('app', 'Добавить Онлайн Запись'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Создать',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Создать'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Добавить Онлайн Запись",  ->  'title'=> \Yii::t('app', 'Добавить Онлайн Запись'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Создать',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Создать'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+'title'=> "Загружения",  ->  'title'=> \Yii::t('app', 'Загружения'), 
+
+'content'=>"Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error}",  ->  'content'=>\Yii::t('app', 'Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error}'), 
+
+'title'=> "Загружения",  ->  'title'=> \Yii::t('app', 'Загружения'), 
+
+'content'=>"<span class='text-danger'>Ошибка при загрузке файла</span>",  ->  'content'=>"<span class='text-danger'>".\Yii::t('app', 'Ошибка при загрузке файла')."</span>", 
+
+'title'=> "<span class='text-danger'>Выберите файл</span>",  ->  'title'=> "<span class='text-danger'>".\Yii::t('app', 'Выберите файл')."</span>", 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+$model->source = 'Администратор';  ->  $model->source = \Yii::t('app', 'Администратор'); 
+
+'title'=> "Загружения",  ->  'title'=> \Yii::t('app', 'Загружения'), 
+
+'content'=>"Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error}",  ->  'content'=>\Yii::t('app', 'Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error}'), 
+
+'title'=> "Загружения",  ->  'title'=> \Yii::t('app', 'Загружения'), 
+
+'content'=>"<span class='text-danger'>Ошибка при загрузке файла</span>",  ->  'content'=>"<span class='text-danger'>".\Yii::t('app', 'Ошибка при загрузке файла')."</span>", 
+
+'title'=> "<span class='text-danger'>Выберите файл</span>",  ->  'title'=> "<span class='text-danger'>".\Yii::t('app', 'Выберите файл')."</span>", 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+'title'=> "Загружения",  ->  'title'=> \Yii::t('app', 'Загружения'), 
+
+'content'=>"Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error}",  ->  'content'=>\Yii::t('app', 'Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error}'), 
+
+'title'=> "Загружения",  ->  'title'=> \Yii::t('app', 'Загружения'), 
+
+'content'=>"<span class='text-danger'>Ошибка при загрузке файла</span>",  ->  'content'=>"<span class='text-danger'>".\Yii::t('app', 'Ошибка при загрузке файла')."</span>", 
+
+'title'=> "<span class='text-danger'>Выберите файл</span>",  ->  'title'=> "<span class='text-danger'>".\Yii::t('app', 'Выберите файл')."</span>", 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+'title'=> "компания #".$id,  ->  'title'=> \Yii::t('app', 'компания #')d, 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::a('Изменить',['update','id'=>$id],['class'=>'btn btn-primary','role'=>'modal-remote'])  ->  Html::a(\Yii::t('app', 'Изменить'),['update','id'=>$id],['class'=>'btn btn-primary','role'=>'modal-remote']) 
+
+'title' => 'Одобрить',  ->  'title' => \Yii::t('app', 'Одобрить'), 
+
+'content' => "Компания «{$model->name}» одобрена",  ->  'content' => \Yii::t('app', 'Компания «{$model->name}» одобрена'), 
+
+'footer' => Html::button('ОК',['class'=>'btn btn-default btn-block','data-dismiss'=>"modal"])  ->  'footer' => Html::button(\Yii::t('app', 'ОК'),['class'=>'btn btn-default btn-block','data-dismiss'=>"modal"]) 
+
+'title'=> "Добавить компанию",  ->  'title'=> \Yii::t('app', 'Добавить компанию'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Создать',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Создать'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Добавить компанию",  ->  'title'=> \Yii::t('app', 'Добавить компанию'), 
+
+'content'=>'<span class="text-success">Создание компании успешно завершено</span>',  ->  'content'=>'<span class="text-success">'.\Yii::t('app', 'Создание компании успешно завершено').'</span>', 
+
+'footer'=> Html::button('ОК',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'ОК'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::a('Создать еще',['create'],['class'=>'btn btn-primary','role'=>'modal-remote'])  ->  Html::a(\Yii::t('app', 'Создать еще'),['create'],['class'=>'btn btn-primary','role'=>'modal-remote']) 
+
+'title'=> "Добавить компанию",  ->  'title'=> \Yii::t('app', 'Добавить компанию'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Создать',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Создать'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Изменить компанию #".$id,  ->  'title'=> \Yii::t('app', 'Изменить компанию #')d, 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Сохранить',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Сохранить'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Изменить компанию #".$id,  ->  'title'=> \Yii::t('app', 'Изменить компанию #')d, 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Сохранить',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Сохранить'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+* Генерирует новый АПИ ключ  ->  * \Yii::t('app', Генерирует новый АПИ ключ) 
+
+* @return string Новый АПИ ключ  ->  * @return string \Yii::t('app', Новый АПИ ключ) 
+
+* Генерит или удаляет АПИ ключ компании  ->  * \Yii::t('app', Генерит или удаляет АПИ ключ компании) 
+
+* @param int $id Идентификатор компании  ->  * @param int $id \Yii::t('app', Идентификатор компании) 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+'content'=>'<span class="text-success">Создание Сотрудника успешно завершено</span>',  ->  'content'=>'<span class="text-success">'.\Yii::t('app', 'Создание Сотрудника успешно завершено').'</span>', 
+
+'footer'=> Html::button('ОК',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'ОК'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::a('Создать еще',['create'],['class'=>'btn btn-primary','role'=>'modal-remote'])  ->  Html::a(\Yii::t('app', 'Создать еще'),['create'],['class'=>'btn btn-primary','role'=>'modal-remote']) 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+'title'=> "настройка",  ->  'title'=> \Yii::t('app', 'настройка'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::a('Изменить',['update','id'=>$id],['class'=>'btn btn-primary','role'=>'modal-remote'])  ->  Html::a(\Yii::t('app', 'Изменить'),['update','id'=>$id],['class'=>'btn btn-primary','role'=>'modal-remote']) 
+
+'title'=> "Добавить настройку",  ->  'title'=> \Yii::t('app', 'Добавить настройку'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Создать',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Создать'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Добавить настройку",  ->  'title'=> \Yii::t('app', 'Добавить настройку'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Создать',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Создать'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Изменить настройку",  ->  'title'=> \Yii::t('app', 'Изменить настройку'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Сохранить',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Сохранить'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Изменить настройку",  ->  'title'=> \Yii::t('app', 'Изменить настройку'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Сохранить',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Сохранить'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+$objPHPExcel->getProperties()->setSubject("Отчет");  ->  $objPHPExcel->getProperties()->setSubject(\Yii::t('app', 'Отчет')); 
+
+$filename = 'Отчет.xlsx';  ->  $filename = \Yii::t('app', 'Отчет.xlsx'); 
+
+//без этой строки при открытии файла xlsx ошибка!!!!!!  ->  //\Yii::t('app', без этой строки при открытии файла xlsx ошибка!!!!!!) 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+'title'=> "Информация",  ->  'title'=> \Yii::t('app', 'Информация'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::a('Изменить',['update','id'=>$id],['class'=>'btn btn-primary','role'=>'modal-remote'])  ->  Html::a(\Yii::t('app', 'Изменить'),['update','id'=>$id],['class'=>'btn btn-primary','role'=>'modal-remote']) 
+
+'title'=> "Добавить Роль",  ->  'title'=> \Yii::t('app', 'Добавить Роль'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Добавить',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Добавить'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Добавить Роль",  ->  'title'=> \Yii::t('app', 'Добавить Роль'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Добавить',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Добавить'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Изменить Роль",  ->  'title'=> \Yii::t('app', 'Изменить Роль'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Изменить',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Изменить'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Изменить Роль",  ->  'title'=> \Yii::t('app', 'Изменить Роль'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Изменить',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Изменить'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Ошибка удаления",  ->  'title'=> \Yii::t('app', 'Ошибка удаления'), 
+
+'content'=>"<span class='text-danger'>Эта роль используется</span>",  ->  'content'=>"<span class='text-danger'>".\Yii::t('app', 'Эта роль используется')."</span>", 
+
+'footer'=> Html::button('ОК',['class'=>'btn btn-block btn-default pull-left','data-dismiss'=>"modal"])  ->  'footer'=> Html::button(\Yii::t('app', 'ОК'),['class'=>'btn btn-block btn-default pull-left','data-dismiss'=>"modal"]) 
+
+'title'=> "Удаление",  ->  'title'=> \Yii::t('app', 'Удаление'), 
+
+'content'=>"<span class='text-warning'>Выбранные записи были удалены, кроме {$errorCount} шт. так как они используются в других записях</span>",  ->  'content'=>"<span class='text-warning'>".\Yii::t('app', 'Выбранные записи были удалены, кроме {$errorCount} шт. так как они используются в других записях')."</span>", 
+
+'footer'=> Html::button('ОК',['class'=>'btn btn-block btn-default pull-left','data-dismiss'=>"modal"])  ->  'footer'=> Html::button(\Yii::t('app', 'ОК'),['class'=>'btn btn-block btn-default pull-left','data-dismiss'=>"modal"]) 
+
+throw new NotFoundHttpException('Запрашиваемая страница не найдена.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемая страница не найдена.')); 
+
+'title'=> "Загружения",  ->  'title'=> \Yii::t('app', 'Загружения'), 
+
+'content'=>"Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error}",  ->  'content'=>\Yii::t('app', 'Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error}'), 
+
+'title'=> "Загружения",  ->  'title'=> \Yii::t('app', 'Загружения'), 
+
+'content'=>"<span class='text-danger'>Ошибка при загрузке файла</span>",  ->  'content'=>"<span class='text-danger'>".\Yii::t('app', 'Ошибка при загрузке файла')."</span>", 
+
+'title'=> "<span class='text-danger'>Выберите файл</span>",  ->  'title'=> "<span class='text-danger'>".\Yii::t('app', 'Выберите файл')."</span>", 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+//Подчищаем бэкапы  ->  //\Yii::t('app', Подчищаем бэкапы) 
+
+// Папка на Яндекс Диске (уже должна быть создана).  ->  // \Yii::t('app', Папка на Яндекс Диске (уже должна быть создана).) 
+
+// Запрашиваем URL для загрузки.  ->  // \Yii::t('app', Запрашиваем URL для загрузки.) 
+
+// Если ошибки нет, то отправляем файл на полученный URL.  ->  // \Yii::t('app', Если ошибки нет, то отправляем файл на полученный URL.) 
+
+echo 'Файл успешно загружен.';  ->  echo \Yii::t('app', 'Файл успешно загружен.'); 
+
+Yii::info('Минимальная дата: ' . $target_date, 'test');  ->  Yii::info(\Yii::t('app', 'Минимальная дата: ') . $target_date, 'test'); 
+
+if (count($files) > 20) { //Запускаем чистку - если файлов больше 20  ->  if (count($files) > 20) { //\Yii::t('app', Запускаем чистку - если файлов больше 20) 
+
+Yii::info('Дата бэкапа: ' . $file_time, 'test');  ->  Yii::info(\Yii::t('app', 'Дата бэкапа: ') . $file_time, 'test'); 
+
+Yii::error('Ошибка удаления бэкапа. ' . $e->getMessage(), '_error');  ->  Yii::error(\Yii::t('app', 'Ошибка удаления бэкапа. ') . $e->getMessage(), '_error'); 
+
+Yii::info('Бэкап удален', 'test');  ->  Yii::info(\Yii::t('app', 'Бэкап удален'), 'test'); 
+
+* Для изменения пароля  ->  * \Yii::t('app', Для изменения пароля) 
+
+'title' => "Сменить пароль",  ->  'title' => \Yii::t('app', 'Сменить пароль'), 
+
+'title' => "Сменить пароль",  ->  'title' => \Yii::t('app', 'Сменить пароль'), 
+
+'content' => '<span class="text-success">Ваш пароль успешно изменен</span>',  ->  'content' => '<span class="text-success">'.\Yii::t('app', 'Ваш пароль успешно изменен').'</span>', 
+
+'footer' => Html::button('Закрыть', ['class' => 'btn btn-white btn-sm', 'data-dismiss' => "modal"]),  ->  'footer' => Html::button(\Yii::t('app', 'Закрыть'), ['class' => 'btn btn-white btn-sm', 'data-dismiss' => "modal"]), 
+
+'title' => "Сменить пароль",  ->  'title' => \Yii::t('app', 'Сменить пароль'), 
+
+//Кандидату пользователя проставляем дату входа  ->  //\Yii::t('app', Кандидату пользователя проставляем дату входа) 
+
+//            Yii::$app->session->setFlash('success', 'Вы успешно зарегистрировались');  ->  //            Yii::$app->session->setFlash('success', \Yii::t('app', 'Вы успешно зарегистрировались')); 
+
+* Смена локали  ->  * \Yii::t('app', Смена локали) 
+
+'title'=> "шаблон #".$id,  ->  'title'=> \Yii::t('app', 'шаблон #')d, 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::a('Изменить',['update','id'=>$id],['class'=>'btn btn-primary','role'=>'modal-remote'])  ->  Html::a(\Yii::t('app', 'Изменить'),['update','id'=>$id],['class'=>'btn btn-primary','role'=>'modal-remote']) 
+
+'title'=> "Добавить шаблон",  ->  'title'=> \Yii::t('app', 'Добавить шаблон'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Создать',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Создать'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Добавить шаблон",  ->  'title'=> \Yii::t('app', 'Добавить шаблон'), 
+
+'content'=>'<span class="text-success">Создание шаблона успешно завершено</span>',  ->  'content'=>'<span class="text-success">'.\Yii::t('app', 'Создание шаблона успешно завершено').'</span>', 
+
+'footer'=> Html::button('ОК',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'ОК'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::a('Создать еще',['create'],['class'=>'btn btn-primary','role'=>'modal-remote'])  ->  Html::a(\Yii::t('app', 'Создать еще'),['create'],['class'=>'btn btn-primary','role'=>'modal-remote']) 
+
+'title'=> "Добавить шаблон",  ->  'title'=> \Yii::t('app', 'Добавить шаблон'), 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Создать',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Создать'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+'title'=> "Изменить шаблон #".$id,  ->  'title'=> \Yii::t('app', 'Изменить шаблон #')d, 
+
+'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+Html::button('Сохранить',['class'=>'btn btn-primary','type'=>"submit"])  ->  Html::button(\Yii::t('app', 'Сохранить'),['class'=>'btn btn-primary','type'=>"submit"]) 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+'title' => "Изменить пользователя #" . $id,  ->  'title' => \Yii::t('app', 'Изменить пользователя #') . $id, 
+
+'footer' => Html::button('Отмена',  ->  'footer' => Html::button(\Yii::t('app', 'Отмена'), 
+
+Html::button('Сохранить', ['class' => 'btn btn-primary', 'type' => "submit"])  ->  Html::button(\Yii::t('app', 'Сохранить'), ['class' => 'btn btn-primary', 'type' => "submit"]) 
+
+//                    'title'=> "пользователь #".$id,  ->  //                    'title'=> \Yii::t('app', 'пользователь #')d, 
+
+//                    'footer'=> Html::button('Отмена',['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]).  ->  //                    'footer'=> Html::button(\Yii::t('app', 'Отмена'),['class'=>'btn btn-default pull-left','data-dismiss'=>"modal"]). 
+
+//                            Html::a('Изменить',['update','id'=>$id],['class'=>'btn btn-primary','role'=>'modal-remote'])  ->  //                            Html::a(\Yii::t('app', 'Изменить'),['update','id'=>$id],['class'=>'btn btn-primary','role'=>'modal-remote']) 
+
+'title' => "Изменить пользователя #" . $id,  ->  'title' => \Yii::t('app', 'Изменить пользователя #') . $id, 
+
+'footer' => Html::button('Отмена',  ->  'footer' => Html::button(\Yii::t('app', 'Отмена'), 
+
+Html::button('Сохранить', ['class' => 'btn btn-primary', 'type' => "submit"])  ->  Html::button(\Yii::t('app', 'Сохранить'), ['class' => 'btn btn-primary', 'type' => "submit"]) 
+
+'title' => "Пользователь #" . $id,  ->  'title' => \Yii::t('app', 'Пользователь #') . $id, 
+
+'footer' => Html::button('Отмена',  ->  'footer' => Html::button(\Yii::t('app', 'Отмена'), 
+
+* Экшен для изменения логина прямо из таблицы. С помощью плагина Editable  ->  * \Yii::t('app', Экшен для изменения логина прямо из таблицы. С помощью плагина Editable) 
+
+'title' => "Добавить пользователя",  ->  'title' => \Yii::t('app', 'Добавить пользователя'), 
+
+'footer' => Html::button('Отмена',  ->  'footer' => Html::button(\Yii::t('app', 'Отмена'), 
+
+Html::button('Сохранить', ['class' => 'btn btn-primary btn-sm', 'type' => "submit"])  ->  Html::button(\Yii::t('app', 'Сохранить'), ['class' => 'btn btn-primary btn-sm', 'type' => "submit"]) 
+
+'title' => "Добавить пользователя",  ->  'title' => \Yii::t('app', 'Добавить пользователя'), 
+
+'content' => '<span class="text-success">Пользователь успешно добавлен</span>',  ->  'content' => '<span class="text-success">'.\Yii::t('app', 'Пользователь успешно добавлен').'</span>', 
+
+'footer' => Html::button('ОК',  ->  'footer' => Html::button(\Yii::t('app', 'ОК'), 
+
+'title' => "Добавить пользователя",  ->  'title' => \Yii::t('app', 'Добавить пользователя'), 
+
+'footer' => Html::button('Отмена',  ->  'footer' => Html::button(\Yii::t('app', 'Отмена'), 
+
+Html::button('Сохранить', ['class' => 'btn btn-primary btn-sm', 'type' => "submit"])  ->  Html::button(\Yii::t('app', 'Сохранить'), ['class' => 'btn btn-primary btn-sm', 'type' => "submit"]) 
+
+* Изменяет пароль у конкретного пользователя  ->  * \Yii::t('app', Изменяет пароль у конкретного пользователя) 
+
+'title' => "Сменить пароль",  ->  'title' => \Yii::t('app', 'Сменить пароль'), 
+
+'footer' => Html::button('Отмена',  ->  'footer' => Html::button(\Yii::t('app', 'Отмена'), 
+
+Html::button('Сохранить', ['class' => 'btn btn-primary btn-sm', 'type' => "submit"])  ->  Html::button(\Yii::t('app', 'Сохранить'), ['class' => 'btn btn-primary btn-sm', 'type' => "submit"]) 
+
+'title' => "Сменить пароль",  ->  'title' => \Yii::t('app', 'Сменить пароль'), 
+
+'content' => '<span class="text-success">Пароль успешно изменен</span>',  ->  'content' => '<span class="text-success">'.\Yii::t('app', 'Пароль успешно изменен').'</span>', 
+
+'footer' => Html::button('Закрыть',  ->  'footer' => Html::button(\Yii::t('app', 'Закрыть'), 
+
+'title' => "Сменить пароль",  ->  'title' => \Yii::t('app', 'Сменить пароль'), 
+
+'footer' => Html::button('Отмена',  ->  'footer' => Html::button(\Yii::t('app', 'Отмена'), 
+
+Html::button('Сохранить', ['class' => 'btn btn-primary btn-sm', 'type' => "submit"])  ->  Html::button(\Yii::t('app', 'Сохранить'), ['class' => 'btn btn-primary btn-sm', 'type' => "submit"]) 
+
+throw new NotFoundHttpException('Запрашиваемой страницы не существует.');  ->  throw new NotFoundHttpException(\Yii::t('app', 'Запрашиваемой страницы не существует.')); 
+
+const MONDAY = 'Понедельник';  ->  const MONDAY = \Yii::t('app', 'Понедельник'); 
+
+const TUESDAY = 'Вторник';  ->  const TUESDAY = \Yii::t('app', 'Вторник'); 
+
+const WEDNESDAY = 'Среда';  ->  const WEDNESDAY = \Yii::t('app', 'Среда'); 
+
+const THURSDAY = 'Четверг';  ->  const THURSDAY = \Yii::t('app', 'Четверг'); 
+
+const FRIDAY = 'Пятница';  ->  const FRIDAY = \Yii::t('app', 'Пятница'); 
+
+const SATURDAY = 'Суббота';  ->  const SATURDAY = \Yii::t('app', 'Суббота'); 
+
+const SUNDAY = 'Воскресенье';  ->  const SUNDAY = \Yii::t('app', 'Воскресенье'); 
+
+self::MONDAY => "Понедельник",  ->  self::MONDAY => \Yii::t('app', 'Понедельник'), 
+
+self::TUESDAY => "Вторник",  ->  self::TUESDAY => \Yii::t('app', 'Вторник'), 
+
+self::WEDNESDAY => "Среда",  ->  self::WEDNESDAY => \Yii::t('app', 'Среда'), 
+
+self::THURSDAY => "Четверг",  ->  self::THURSDAY => \Yii::t('app', 'Четверг'), 
+
+self::FRIDAY => "Пятница",  ->  self::FRIDAY => \Yii::t('app', 'Пятница'), 
+
+self::SATURDAY => "Суббота",  ->  self::SATURDAY => \Yii::t('app', 'Суббота'), 
+
+self::SUNDAY => "Воскресенье",  ->  self::SUNDAY => \Yii::t('app', 'Воскресенье'), 
+
+$this->addError('phone', "Под данным телефоном клиент уже существует");  ->  $this->addError('phone', \Yii::t('app', 'Под данным телефоном клиент уже существует')); 
+
+'name' => 'Наименование',  ->  'name' => \Yii::t('app', 'Наименование'), 
+
+'type' => 'Тип',  ->  'type' => \Yii::t('app', 'Тип'), 
+
+'is_super_company' => 'Является ли супер компанией',  ->  'is_super_company' => \Yii::t('app', 'Является ли супер компанией'), 
+
+'access' => 'Доступ (вкл/выкл)',  ->  'access' => \Yii::t('app', 'Доступ (вкл/выкл)'), 
+
+'last_activity_datetime' => 'Дата и время последней активности',  ->  'last_activity_datetime' => \Yii::t('app', 'Дата и время последней активности'), 
+
+'balance' => 'Баланс',  ->  'balance' => \Yii::t('app', 'Баланс'), 
+
+'balance_ref' => 'Баланс',  ->  'balance_ref' => \Yii::t('app', 'Баланс'), 
+
+'created_at' => 'Дата и время создания',  ->  'created_at' => \Yii::t('app', 'Дата и время создания'), 
+
+'api_key' => 'АПИ ключ',  ->  'api_key' => \Yii::t('app', 'АПИ ключ'), 
+
+'bank_registration_date' => 'Дата регистрации',  ->  'bank_registration_date' => \Yii::t('app', 'Дата регистрации'), 
+
+'address' => 'Адрес',  ->  'address' => \Yii::t('app', 'Адрес'), 
+
+'phone' => 'Телефон',  ->  'phone' => \Yii::t('app', 'Телефон'), 
+
+self::TYPE_PROVIDER => 'Поставщик',  ->  self::TYPE_PROVIDER => \Yii::t('app', 'Поставщик'), 
+
+self::TYPE_BUYER=> 'Покупатель',  ->  self::TYPE_BUYER=> \Yii::t('app', 'Покупатель'), 
+
+* Отправляет письмо  ->  * \Yii::t('app', Отправляет письмо) 
+
+* Отправляет письмо  ->  * \Yii::t('app', Отправляет письмо) 
+
+* Получает компанию по токену  ->  * \Yii::t('app', Получает компанию по токену) 
+
+* Генерация нового токена  ->  * \Yii::t('app', Генерация нового токена) 
+
+const M14 = 'М';  ->  const M14 = \Yii::t('app', 'М'); 
+
+const THEN = 'Ж';  ->  const THEN = \Yii::t('app', 'Ж'); 
+
+const YES = 'Да';  ->  const YES = \Yii::t('app', 'Да'); 
+
+const NO = 'Нет';  ->  const NO = \Yii::t('app', 'Нет'); 
+
+self::M14 => "М",  ->  self::M14 => \Yii::t('app', 'М'), 
+
+self::THEN => "Ж",  ->  self::THEN => \Yii::t('app', 'Ж'), 
+
+self::YES => "Да",  ->  self::YES => \Yii::t('app', 'Да'), 
+
+self::NO => "Нет",  ->  self::NO => \Yii::t('app', 'Нет'), 
+
+const MONDAY = 'Понедельник';  ->  const MONDAY = \Yii::t('app', 'Понедельник'); 
+
+const TUESDAY = 'Вторник';  ->  const TUESDAY = \Yii::t('app', 'Вторник'); 
+
+const WEDNESDAY = 'Среда';  ->  const WEDNESDAY = \Yii::t('app', 'Среда'); 
+
+const THURSDAY = 'Четверг';  ->  const THURSDAY = \Yii::t('app', 'Четверг'); 
+
+const FRIDAY = 'Пятница';  ->  const FRIDAY = \Yii::t('app', 'Пятница'); 
+
+const SATURDAY = 'Суббота';  ->  const SATURDAY = \Yii::t('app', 'Суббота'); 
+
+const SUNDAY = 'Воскресенье';  ->  const SUNDAY = \Yii::t('app', 'Воскресенье'); 
+
+self::MONDAY => "Понедельник",  ->  self::MONDAY => \Yii::t('app', 'Понедельник'), 
+
+self::TUESDAY => "Вторник",  ->  self::TUESDAY => \Yii::t('app', 'Вторник'), 
+
+self::WEDNESDAY => "Среда",  ->  self::WEDNESDAY => \Yii::t('app', 'Среда'), 
+
+self::THURSDAY => "Четверг",  ->  self::THURSDAY => \Yii::t('app', 'Четверг'), 
+
+self::FRIDAY => "Пятница",  ->  self::FRIDAY => \Yii::t('app', 'Пятница'), 
+
+self::SATURDAY => "Суббота",  ->  self::SATURDAY => \Yii::t('app', 'Суббота'), 
+
+self::SUNDAY => "Воскресенье",  ->  self::SUNDAY => \Yii::t('app', 'Воскресенье'), 
+
+'name' => 'Название',  ->  'name' => \Yii::t('app', 'Название'), 
+
+'model' => 'Основаная модель',  ->  'model' => \Yii::t('app', 'Основаная модель'), 
+
+'reservation' => 'Журнал записи',  ->  'reservation' => \Yii::t('app', 'Журнал записи'), 
+
+'customization' => 'Онлайн запись',  ->  'customization' => \Yii::t('app', 'Онлайн запись'), 
+
+$newData["client.".$key] = "Клиент - ".$questionNewBook;  ->  $newData["client.".$key] = \Yii::t('app', 'Клиент - ')uestionNewBook; 
+
+$newData["master.".$key] = "Сотрудник - ".$questionNewBook;  ->  $newData["master.".$key] = \Yii::t('app', 'Сотрудник - ')uestionNewBook; 
+
+$newData["salon.".$key] = "Филиал - ".$questionNewBook;  ->  $newData["salon.".$key] = \Yii::t('app', 'Филиал - ')uestionNewBook; 
+
+$newData["client.".$key] = "Клиент - ".$questionNewBook;  ->  $newData["client.".$key] = \Yii::t('app', 'Клиент - ')uestionNewBook; 
+
+$newData["master.".$key] = "Сотрудник - ".$questionNewBook;  ->  $newData["master.".$key] = \Yii::t('app', 'Сотрудник - ')uestionNewBook; 
+
+$newData["salon.".$key] = "Филиал - ".$questionNewBook;  ->  $newData["salon.".$key] = \Yii::t('app', 'Филиал - ')uestionNewBook; 
+
+$btnClear = '<button class="btn btn-xs btn-default btn-block" onclick="$(this).parent().find(\'input\').val(\'\'); $(this).parent().find(\'input\').one().trigger(\'change\')">×</button>';  ->  $btnClear = '<button class="btn btn-xs btn-default btn-block" onclick="$(this).parent().find(\'input\').val(\'\'); $(this).parent().find(\'input\').one().trigger(\'change\')">\Yii::t('app', ×</button>';) 
+
+// const RESERVATION = 'Бронь';  ->  // const RESERVATION = \Yii::t('app', 'Бронь'); 
+
+// const COMPLETED = 'Завершено';  ->  // const COMPLETED = \Yii::t('app', 'Завершено'); 
+
+// const CANCELLED = 'Отменена';  ->  // const CANCELLED = \Yii::t('app', 'Отменена'); 
+
+const STATUS_WAITING = 'Ожидание клиента';  ->  const STATUS_WAITING = \Yii::t('app', 'Ожидание клиента'); 
+
+const STATUS_CAME = 'Клиент пришел';  ->  const STATUS_CAME = \Yii::t('app', 'Клиент пришел'); 
+
+const STATUS_CANCEL = 'Отмена';  ->  const STATUS_CANCEL = \Yii::t('app', 'Отмена'); 
+
+const STATUS_NOT_CAME = 'Клиент не пришел';  ->  const STATUS_NOT_CAME = \Yii::t('app', 'Клиент не пришел'); 
+
+const STATUS_CONFIRMED = 'Клиент подтвердил';  ->  const STATUS_CONFIRMED = \Yii::t('app', 'Клиент подтвердил'); 
+
+const CASH = 'Наличные';  ->  const CASH = \Yii::t('app', 'Наличные'); 
+
+const MAP = 'Картой';  ->  const MAP = \Yii::t('app', 'Картой'); 
+
+self::STATUS_WAITING => '<i data-feather="clock"></i> Ожидание клиента',  ->  self::STATUS_WAITING => '<i data-feather="clock"></i> '.\Yii::t('app', 'Ожидание клиента'), 
+
+self::STATUS_CONFIRMED => '<i data-feather="plus-circle"></i> Клиент подтвердил',  ->  self::STATUS_CONFIRMED => '<i data-feather="plus-circle"></i> '.\Yii::t('app', 'Клиент подтвердил'), 
+
+self::STATUS_CANCEL => '<i data-feather="x-circle"></i> Отмена',  ->  self::STATUS_CANCEL => '<i data-feather="x-circle"></i> '.\Yii::t('app', 'Отмена'), 
+
+self::STATUS_CAME => '<i data-feather="arrow-left-circle"></i> Клиент пришел',  ->  self::STATUS_CAME => '<i data-feather="arrow-left-circle"></i> '.\Yii::t('app', 'Клиент пришел'), 
+
+self::STATUS_NOT_CAME => '<i data-feather="minus-circle"></i> Клиент не пришел',  ->  self::STATUS_NOT_CAME => '<i data-feather="minus-circle"></i> '.\Yii::t('app', 'Клиент не пришел'), 
+
+self::CASH => "Наличные",  ->  self::CASH => \Yii::t('app', 'Наличные'), 
+
+self::MAP => "Картой",  ->  self::MAP => \Yii::t('app', 'Картой'), 
+
+$list .= "Новая информация по заявке ({$value->status}) \n";  ->  $list .= \Yii::t('app', 'Новая информация по заявке ({$value->status}) \n'); 
+
+$list .= "\nНачало {$value->start_time} \n";  ->  $list .= "\n".\Yii::t('app', 'Начало {$value->start_time} \n'); 
+
+$list .= "Завершение услуг: {$value->completion_time}\n";  ->  $list .= \Yii::t('app', 'Завершение услуг: {$value->completion_time}\n'); 
+
+$list .= "Услуги: {$serviceTitle}\n";  ->  $list .= \Yii::t('app', 'Услуги: {$serviceTitle}\n'); 
+
+$list .= "Клиент: {$clientInfo}\n";  ->  $list .= \Yii::t('app', 'Клиент: {$clientInfo}\n'); 
+
+$list .= "<a href='https://loyalty.mir-crm.com/calendar/index?date={$value->date}'>Перейти в лк </a> \n";  ->  $list .= "<a href='https://loyalty.mir-crm.com/calendar/index?date={$value->date}'>Перейти в лк </a> \n"; 
+
+'name' => 'Роль',  ->  'name' => \Yii::t('app', 'Роль'), 
+
+'company_create' => 'Создание',  ->  'company_create' => \Yii::t('app', 'Создание'), 
+
+'company_update' => 'Изменение',  ->  'company_update' => \Yii::t('app', 'Изменение'), 
+
+'company_view' => 'Просмотр',  ->  'company_view' => \Yii::t('app', 'Просмотр'), 
+
+'company_view_all' => 'Просмотр всех',  ->  'company_view_all' => \Yii::t('app', 'Просмотр всех'), 
+
+'company_delete' => 'Удаление',  ->  'company_delete' => \Yii::t('app', 'Удаление'), 
+
+'calendar_create' => 'Создание',  ->  'calendar_create' => \Yii::t('app', 'Создание'), 
+
+'calendar_update' => 'Изменение',  ->  'calendar_update' => \Yii::t('app', 'Изменение'), 
+
+'calendar_view' => 'Просмотр',  ->  'calendar_view' => \Yii::t('app', 'Просмотр'), 
+
+'calendar_view_all' => 'Просмотр всех',  ->  'calendar_view_all' => \Yii::t('app', 'Просмотр всех'), 
+
+'calendar_delete' => 'Удаление',  ->  'calendar_delete' => \Yii::t('app', 'Удаление'), 
+
+'reservation_create' => 'Создание',  ->  'reservation_create' => \Yii::t('app', 'Создание'), 
+
+'reservation_update' => 'Изменение',  ->  'reservation_update' => \Yii::t('app', 'Изменение'), 
+
+'reservation_view' => 'Просмотр',  ->  'reservation_view' => \Yii::t('app', 'Просмотр'), 
+
+'reservation_view_all' => 'Просмотр всех',  ->  'reservation_view_all' => \Yii::t('app', 'Просмотр всех'), 
+
+'reservation_delete' => 'Удаление',  ->  'reservation_delete' => \Yii::t('app', 'Удаление'), 
+
+'reservation_items_create' => 'Создание',  ->  'reservation_items_create' => \Yii::t('app', 'Создание'), 
+
+'reservation_items_update' => 'Изменение',  ->  'reservation_items_update' => \Yii::t('app', 'Изменение'), 
+
+'reservation_items_view' => 'Просмотр',  ->  'reservation_items_view' => \Yii::t('app', 'Просмотр'), 
+
+'reservation_items_view_all' => 'Просмотр всех',  ->  'reservation_items_view_all' => \Yii::t('app', 'Просмотр всех'), 
+
+'reservation_items_delete' => 'Удаление',  ->  'reservation_items_delete' => \Yii::t('app', 'Удаление'), 
+
+'customization_create' => 'Создание',  ->  'customization_create' => \Yii::t('app', 'Создание'), 
+
+'customization_update' => 'Изменение',  ->  'customization_update' => \Yii::t('app', 'Изменение'), 
+
+'customization_view' => 'Просмотр',  ->  'customization_view' => \Yii::t('app', 'Просмотр'), 
+
+'customization_view_all' => 'Просмотр всех',  ->  'customization_view_all' => \Yii::t('app', 'Просмотр всех'), 
+
+'customization_delete' => 'Удаление',  ->  'customization_delete' => \Yii::t('app', 'Удаление'), 
+
+'order_create' => 'Создание',  ->  'order_create' => \Yii::t('app', 'Создание'), 
+
+'order_update' => 'Изменение',  ->  'order_update' => \Yii::t('app', 'Изменение'), 
+
+'order_view' => 'Просмотр',  ->  'order_view' => \Yii::t('app', 'Просмотр'), 
+
+'order_view_all' => 'Просмотр всех',  ->  'order_view_all' => \Yii::t('app', 'Просмотр всех'), 
+
+'order_delete' => 'Удаление',  ->  'order_delete' => \Yii::t('app', 'Удаление'), 
+
+'company_disallow_fields' => 'Исключенные поля',  ->  'company_disallow_fields' => \Yii::t('app', 'Исключенные поля'), 
+
+'calendar_disallow_fields' => 'Исключенные поля',  ->  'calendar_disallow_fields' => \Yii::t('app', 'Исключенные поля'), 
+
+'reservation_disallow_fields' => 'Исключенные поля',  ->  'reservation_disallow_fields' => \Yii::t('app', 'Исключенные поля'), 
+
+'reservation_items_disallow_fields' => 'Исключенные поля',  ->  'reservation_items_disallow_fields' => \Yii::t('app', 'Исключенные поля'), 
+
+'customization_disallow_fields' => 'Исключенные поля',  ->  'customization_disallow_fields' => \Yii::t('app', 'Исключенные поля'), 
+
+'order_disallow_fields' => 'Исключенные поля',  ->  'order_disallow_fields' => \Yii::t('app', 'Исключенные поля'), 
+
+'books' => 'Справочники'  ->  'books' => \Yii::t('app', 'Справочники') 
+
+'name' => 'Название',  ->  'name' => \Yii::t('app', 'Название'), 
+
+'type' => 'Тип',  ->  'type' => \Yii::t('app', 'Тип'), 
+
+'text' => 'Текст',  ->  'text' => \Yii::t('app', 'Текст'), 
+
+'{user.login}' => 'Логин',  ->  '{user.login}' => \Yii::t('app', 'Логин'), 
+
+'{user.role_id}' => 'Роль',  ->  '{user.role_id}' => \Yii::t('app', 'Роль'), 
+
+'{user.role}' => 'Должность',  ->  '{user.role}' => \Yii::t('app', 'Должность'), 
+
+'{user.name}' => 'ФИО',  ->  '{user.name}' => \Yii::t('app', 'ФИО'), 
+
+'{user.phone}' => 'Телефон',  ->  '{user.phone}' => \Yii::t('app', 'Телефон'), 
+
+'{user.access}' => 'Доступ',  ->  '{user.access}' => \Yii::t('app', 'Доступ'), 
+
+'{user.password_hash}' => 'Зашифрованный пароль',  ->  '{user.password_hash}' => \Yii::t('app', 'Зашифрованный пароль'), 
+
+'{user.created_at}' => 'Дата создания',  ->  '{user.created_at}' => \Yii::t('app', 'Дата создания'), 
+
+'{user.is_deletable}' => 'Можно удалить или нельзя',  ->  '{user.is_deletable}' => \Yii::t('app', 'Можно удалить или нельзя'), 
+
+'{customization.token}' => 'Токен бота для клиентов',  ->  '{customization.token}' => \Yii::t('app', 'Токен бота для клиентов'), 
+
+'{customization.step}' => 'Шаг нарезки в минутах',  ->  '{customization.step}' => \Yii::t('app', 'Шаг нарезки в минутах'), 
+
+'{customization.personal_data_processing}' => 'Обработка персональных данных',  ->  '{customization.personal_data_processing}' => \Yii::t('app', 'Обработка персональных данных'), 
+
+'{salon.name}' => 'Название',  ->  '{salon.name}' => \Yii::t('app', 'Название'), 
+
+'{salon.address}' => 'Адрес',  ->  '{salon.address}' => \Yii::t('app', 'Адрес'), 
+
+'{salon.brief_description}' => 'Краткое описание',  ->  '{salon.brief_description}' => \Yii::t('app', 'Краткое описание'), 
+
+'{salon.description}' => 'Описание',  ->  '{salon.description}' => \Yii::t('app', 'Описание'), 
+
+'{salon.avatarka}' => 'Аватарка',  ->  '{salon.avatarka}' => \Yii::t('app', 'Аватарка'), 
+
+'{salon.dop_foto}' => 'Доп фото',  ->  '{salon.dop_foto}' => \Yii::t('app', 'Доп фото'), 
+
+'{salon.phone}' => 'Номер телефона',  ->  '{salon.phone}' => \Yii::t('app', 'Номер телефона'), 
+
+'{salon.advisable}' => 'Рекомендуемый салон',  ->  '{salon.advisable}' => \Yii::t('app', 'Рекомендуемый салон'), 
+
+'{company.name}' => 'Наименование',  ->  '{company.name}' => \Yii::t('app', 'Наименование'), 
+
+'{company.type}' => 'Тип',  ->  '{company.type}' => \Yii::t('app', 'Тип'), 
+
+'{company.is_super_company}' => 'Является ли супер компанией',  ->  '{company.is_super_company}' => \Yii::t('app', 'Является ли супер компанией'), 
+
+'{company.access}' => 'Доступ (вкл/выкл)',  ->  '{company.access}' => \Yii::t('app', 'Доступ (вкл/выкл)'), 
+
+'{company.last_activity_datetime}' => 'Дата и время последней активности',  ->  '{company.last_activity_datetime}' => \Yii::t('app', 'Дата и время последней активности'), 
+
+'{company.balance}' => 'Баланс',  ->  '{company.balance}' => \Yii::t('app', 'Баланс'), 
+
+'{company.balance_ref}' => 'Баланс',  ->  '{company.balance_ref}' => \Yii::t('app', 'Баланс'), 
+
+'{company.created_at}' => 'Дата и время создания',  ->  '{company.created_at}' => \Yii::t('app', 'Дата и время создания'), 
+
+'{company.api_key}' => 'АПИ ключ',  ->  '{company.api_key}' => \Yii::t('app', 'АПИ ключ'), 
+
+'{company.bank_registration_date}' => 'Дата регистрации',  ->  '{company.bank_registration_date}' => \Yii::t('app', 'Дата регистрации'), 
+
+'{amenities.name}' => 'Название',  ->  '{amenities.name}' => \Yii::t('app', 'Название'), 
+
+'{amenities.description}' => 'Описание',  ->  '{amenities.description}' => \Yii::t('app', 'Описание'), 
+
+'{amenities.price}' => 'Минимальная цена',  ->  '{amenities.price}' => \Yii::t('app', 'Минимальная цена'), 
+
+'{amenities.duration}' => 'Длительность в минутах',  ->  '{amenities.duration}' => \Yii::t('app', 'Длительность в минутах'), 
+
+'{amenities.break}' => 'Перерыв в минутах',  ->  '{amenities.break}' => \Yii::t('app', 'Перерыв в минутах'), 
+
+'{amenities.master}' => 'Сотрудники',  ->  '{amenities.master}' => \Yii::t('app', 'Сотрудники'), 
+
+'{amenities.salon}' => 'Филиалы',  ->  '{amenities.salon}' => \Yii::t('app', 'Филиалы'), 
+
+'{amenities.grafik}' => 'График',  ->  '{amenities.grafik}' => \Yii::t('app', 'График'), 
+
+'{amenities.categories_id}' => 'Категории',  ->  '{amenities.categories_id}' => \Yii::t('app', 'Категории'), 
+
+'{amenities.title}' => 'Название для онлайн записи',  ->  '{amenities.title}' => \Yii::t('app', 'Название для онлайн записи'), 
+
+'{amenities.picture}' => 'Изображение',  ->  '{amenities.picture}' => \Yii::t('app', 'Изображение'), 
+
+'{amenities.maximum_price}' => 'Максимальная цена',  ->  '{amenities.maximum_price}' => \Yii::t('app', 'Максимальная цена'), 
+
+'{client.name}' => 'Имя',  ->  '{client.name}' => \Yii::t('app', 'Имя'), 
+
+'{client.phone}' => 'Телефон',  ->  '{client.phone}' => \Yii::t('app', 'Телефон'), 
+
+'{client.email}' => 'Емаил',  ->  '{client.email}' => \Yii::t('app', 'Емаил'), 
+
+'{client.telegram}' => 'Телеграм',  ->  '{client.telegram}' => \Yii::t('app', 'Телеграм'), 
+
+'{client.step}' => 'Шаг',  ->  '{client.step}' => \Yii::t('app', 'Шаг'), 
+
+'{client.salon_id}' => 'Филиал',  ->  '{client.salon_id}' => \Yii::t('app', 'Филиал'), 
+
+'{client.token}' => 'Токен',  ->  '{client.token}' => \Yii::t('app', 'Токен'), 
+
+'{client.source}' => 'Источник',  ->  '{client.source}' => \Yii::t('app', 'Источник'), 
+
+'{client.password}' => 'Пароль',  ->  '{client.password}' => \Yii::t('app', 'Пароль'), 
+
+'{client.avatarka}' => 'Аватарка',  ->  '{client.avatarka}' => \Yii::t('app', 'Аватарка'), 
+
+'{client.token_pushey}' => 'Токен пушей',  ->  '{client.token_pushey}' => \Yii::t('app', 'Токен пушей'), 
+
+'{reservation.client_id}' => 'Клиент',  ->  '{reservation.client_id}' => \Yii::t('app', 'Клиент'), 
+
+'{reservation.master_id}' => 'Сотрудник',  ->  '{reservation.master_id}' => \Yii::t('app', 'Сотрудник'), 
+
+'{reservation.start_time}' => 'Время начала',  ->  '{reservation.start_time}' => \Yii::t('app', 'Время начала'), 
+
+'{reservation.completion_time}' => 'время завершения',  ->  '{reservation.completion_time}' => \Yii::t('app', 'время завершения'), 
+
+'{reservation.date}' => 'Дата брони',  ->  '{reservation.date}' => \Yii::t('app', 'Дата брони'), 
+
+'{reservation.status}' => 'Статус',  ->  '{reservation.status}' => \Yii::t('app', 'Статус'), 
+
+'{reservation.salon_id}' => 'Филиал',  ->  '{reservation.salon_id}' => \Yii::t('app', 'Филиал'), 
+
+'{reservation.services}' => 'Услуги',  ->  '{reservation.services}' => \Yii::t('app', 'Услуги'), 
+
+'{reservation.the_cost}' => 'Стоимость',  ->  '{reservation.the_cost}' => \Yii::t('app', 'Стоимость'), 
+
+'{reservation.payment}' => 'Тип оплаты',  ->  '{reservation.payment}' => \Yii::t('app', 'Тип оплаты'), 
+
+'{reservation.amenities_id}' => 'Услуги',  ->  '{reservation.amenities_id}' => \Yii::t('app', 'Услуги'), 
+
+'{amenities_item.day}' => 'День недели',  ->  '{amenities_item.day}' => \Yii::t('app', 'День недели'), 
+
+'{amenities_item.start_time}' => 'Время начала',  ->  '{amenities_item.start_time}' => \Yii::t('app', 'Время начала'), 
+
+'{amenities_item.completion_time}' => 'время завершения',  ->  '{amenities_item.completion_time}' => \Yii::t('app', 'время завершения'), 
+
+'{amenities_item.amenities_id}' => 'Услуги',  ->  '{amenities_item.amenities_id}' => \Yii::t('app', 'Услуги'), 
+
+'{master_items.day}' => 'День недели',  ->  '{master_items.day}' => \Yii::t('app', 'День недели'), 
+
+'{master_items.start_time}' => 'Время начала',  ->  '{master_items.start_time}' => \Yii::t('app', 'Время начала'), 
+
+'{master_items.completion_time}' => 'время завершения',  ->  '{master_items.completion_time}' => \Yii::t('app', 'время завершения'), 
+
+'{master_items.master_id}' => 'Сотрудник',  ->  '{master_items.master_id}' => \Yii::t('app', 'Сотрудник'), 
+
+'{order.client_id}' => 'Клиент',  ->  '{order.client_id}' => \Yii::t('app', 'Клиент'), 
+
+'{order.variable}' => 'Переменная',  ->  '{order.variable}' => \Yii::t('app', 'Переменная'), 
+
+'{order.znachenie}' => 'Значение',  ->  '{order.znachenie}' => \Yii::t('app', 'Значение'), 
+
+'{order.master_id}' => 'Сотрудник',  ->  '{order.master_id}' => \Yii::t('app', 'Сотрудник'), 
+
+'{master.name}' => 'Имя',  ->  '{master.name}' => \Yii::t('app', 'Имя'), 
+
+'{master.phone}' => 'Телефон',  ->  '{master.phone}' => \Yii::t('app', 'Телефон'), 
+
+'{master.email}' => 'почта',  ->  '{master.email}' => \Yii::t('app', 'почта'), 
+
+'{master.quantity}' => 'Количество одновременно обслуживаемых клиентов',  ->  '{master.quantity}' => \Yii::t('app', 'Количество одновременно обслуживаемых клиентов'), 
+
+'{master.show}' => 'Показывать сотрудника на странице бронирования',  ->  '{master.show}' => \Yii::t('app', 'Показывать сотрудника на странице бронирования'), 
+
+'{master.salon}' => 'Филиалы',  ->  '{master.salon}' => \Yii::t('app', 'Филиалы'), 
+
+'{master.user_id}' => 'Пользователь',  ->  '{master.user_id}' => \Yii::t('app', 'Пользователь'), 
+
+'{master.grafik}' => 'График',  ->  '{master.grafik}' => \Yii::t('app', 'График'), 
+
+'{master.familiya}' => 'Фамилия',  ->  '{master.familiya}' => \Yii::t('app', 'Фамилия'), 
+
+'{master.date}' => 'Дата приема на работу',  ->  '{master.date}' => \Yii::t('app', 'Дата приема на работу'), 
+
+'{master.citizenship}' => 'Гражданство',  ->  '{master.citizenship}' => \Yii::t('app', 'Гражданство'), 
+
+'{master.pol}' => 'Пол',  ->  '{master.pol}' => \Yii::t('app', 'Пол'), 
+
+'{master.pasportnye_dannye}' => 'Паспортные данные',  ->  '{master.pasportnye_dannye}' => \Yii::t('app', 'Паспортные данные'), 
+
+'{master.iin}' => 'ИИН',  ->  '{master.iin}' => \Yii::t('app', 'ИИН'), 
+
+'{master.number}' => 'Номер страхового свидетельства',  ->  '{master.number}' => \Yii::t('app', 'Номер страхового свидетельства'), 
+
+'{master.role}' => 'Должность',  ->  '{master.role}' => \Yii::t('app', 'Должность'), 
+
+'{master.specialization}' => 'Специализация',  ->  '{master.specialization}' => \Yii::t('app', 'Специализация'), 
+
+'{master.parol}' => 'Пароль',  ->  '{master.parol}' => \Yii::t('app', 'Пароль'), 
+
+'{master.telegram}' => 'Телеграм',  ->  '{master.telegram}' => \Yii::t('app', 'Телеграм'), 
+
+'{master.step}' => 'Шаг',  ->  '{master.step}' => \Yii::t('app', 'Шаг'), 
+
+'{master.avatarka}' => 'Аватарка',  ->  '{master.avatarka}' => \Yii::t('app', 'Аватарка'), 
+
+'{category.name}' => 'Название',  ->  '{category.name}' => \Yii::t('app', 'Название'), 
+
+'{comment.salon_id}' => 'Филиалы',  ->  '{comment.salon_id}' => \Yii::t('app', 'Филиалы'), 
+
+'{comment.client_id}' => 'Клиент',  ->  '{comment.client_id}' => \Yii::t('app', 'Клиент'), 
+
+'{comment.text}' => 'Текст',  ->  '{comment.text}' => \Yii::t('app', 'Текст'), 
+
+'{comment.create_at}' => 'Дата и время',  ->  '{comment.create_at}' => \Yii::t('app', 'Дата и время'), 
+
+'{comment.estimation}' => 'Оценка',  ->  '{comment.estimation}' => \Yii::t('app', 'Оценка'), 
+
+'{comment_master.master_id}' => 'Сотрудник',  ->  '{comment_master.master_id}' => \Yii::t('app', 'Сотрудник'), 
+
+'{comment_master.client_id}' => 'Клиент',  ->  '{comment_master.client_id}' => \Yii::t('app', 'Клиент'), 
+
+'{comment_master.text}' => 'Текст',  ->  '{comment_master.text}' => \Yii::t('app', 'Текст'), 
+
+'{comment_master.create_at}' => 'Дата и время',  ->  '{comment_master.create_at}' => \Yii::t('app', 'Дата и время'), 
+
+'{comment_master.estimation}' => 'Оценка',  ->  '{comment_master.estimation}' => \Yii::t('app', 'Оценка'), 
+
+'{izbranoe.client_id}' => 'Клиент',  ->  '{izbranoe.client_id}' => \Yii::t('app', 'Клиент'), 
+
+'{izbranoe.salon_id}' => 'Филиалы',  ->  '{izbranoe.salon_id}' => \Yii::t('app', 'Филиалы'), 
+
+'{notification.client_id}' => 'Клиент',  ->  '{notification.client_id}' => \Yii::t('app', 'Клиент'), 
+
+'{notification.text}' => 'Текст',  ->  '{notification.text}' => \Yii::t('app', 'Текст'), 
+
+'{not_job.date_cr}' => 'Дата',  ->  '{not_job.date_cr}' => \Yii::t('app', 'Дата'), 
+
+'{not_job.reason}' => 'Причина',  ->  '{not_job.reason}' => \Yii::t('app', 'Причина'), 
+
+'{not_job.master_id}' => 'Сотрудник',  ->  '{not_job.master_id}' => \Yii::t('app', 'Сотрудник'), 
+
+'{reservation_items.service_id}' => 'Услуга',  ->  '{reservation_items.service_id}' => \Yii::t('app', 'Услуга'), 
+
+'{reservation_items.reserve_id}' => 'Резерв',  ->  '{reservation_items.reserve_id}' => \Yii::t('app', 'Резерв'), 
+
+Yii::$app->session->setFlash('error', "Вы авторизованы под пользователем «{$this->login}». Удаление невозможно!");  ->  Yii::$app->session->setFlash('error', \Yii::t('app', 'Вы авторизованы под пользователем «{$this->login}». Удаление невозможно!')); 
+
+Yii::$app->session->setFlash('error', "Этот пользователь не может подлежать удалению. Удаление невозможно!");  ->  Yii::$app->session->setFlash('error', \Yii::t('app', 'Этот пользователь не может подлежать удалению. Удаление невозможно!')); 
+
+Yii::info('Пароль перед сохранением: ' . $this->password, 'test');  ->  Yii::info(\Yii::t('app', 'Пароль перед сохранением: ') . $this->password, 'test'); 
+
+'name' => 'ФИО',  ->  'name' => \Yii::t('app', 'ФИО'), 
+
+'phone' => 'Телефон',  ->  'phone' => \Yii::t('app', 'Телефон'), 
+
+'login' => 'Логин',  ->  'login' => \Yii::t('app', 'Логин'), 
+
+'role_id' => 'Роль',  ->  'role_id' => \Yii::t('app', 'Роль'), 
+
+'role' => 'Должность',  ->  'role' => \Yii::t('app', 'Должность'), 
+
+'access' => 'Доступ',  ->  'access' => \Yii::t('app', 'Доступ'), 
+
+'password' => "Пароль",  ->  'password' => \Yii::t('app', 'Пароль'), 
+
+'password_hash' => 'Зашифрованный пароль',  ->  'password_hash' => \Yii::t('app', 'Зашифрованный пароль'), 
+
+'created_at' => 'Дата создания',  ->  'created_at' => \Yii::t('app', 'Дата создания'), 
+
+'is_deletable' => 'Можно удалить или нельзя',  ->  'is_deletable' => \Yii::t('app', 'Можно удалить или нельзя'), 
+
+* Админ компании или нет  ->  * \Yii::t('app', Админ компании или нет) 
+
+$this->addError('email', 'Nesprávná e-mailová adresa');  ->  $this->addError('email', 'Nespr\Yii::t('app', ávná e-mailová adresa');) 
+
+->setSubject('Востановление пароля')  ->  ->setSubject(\Yii::t('app', 'Востановление пароля')) 
+
+->setHtmlBody("<p>Доброго времени суток</p>  ->  ->setHtmlBody("<p>".\Yii::t('app', 'Доброго времени суток')."</p> 
+
+<p>Ваш новый пароль: <b>{$user->password}</b></p>")  ->  <p>Ваш новый пароль: <b>{$user->password}</b></p>") 
+
+'setting' => 'Колонки',  ->  'setting' => \Yii::t('app', 'Колонки'), 
+
+['email', 'unique', 'targetClass' => '\app\models\User', 'targetAttribute' => 'login', 'message' => 'Этот email уже зарегистрирован',],  ->  ['email', 'unique', 'targetClass' => '\app\models\User', 'targetAttribute' => 'login', 'message' => \Yii::t('app', 'Этот email уже зарегистрирован'),], 
+
+$this->addError('agree', 'Необходимо согласие');  ->  $this->addError('agree', \Yii::t('app', 'Необходимо согласие')); 
+
+'repeatPassword' => 'Potvrďte heslo',  ->  'repeatPassword' => 'Potvr\Yii::t('app', ďte heslo',) 
+
+'businessCategory' => 'Vaše zaměření',  ->  'businessCategory' => 'Va\Yii::t('app', še zaměření',) 
+
+'companyName' => 'Firma nebo OSVČ',  ->  'companyName' => 'Firma nebo OSV\Yii::t('app', Č',) 
+
+'name' => 'Jméno',  ->  'name' => 'Jm\Yii::t('app', éno',) 
+
+'last_name' => 'Příjmení',  ->  'last_name' => 'P\Yii::t('app', říjmení',) 
+
+'type' => 'Тип',  ->  'type' => \Yii::t('app', 'Тип'), 
+
+'position' => 'Pozice ve firmě',  ->  'position' => 'Pozice ve firm\Yii::t('app', ě',) 
+
+'promocode' => 'Promo kód',  ->  'promocode' => 'Promo k\Yii::t('app', ód',) 
+
+'agree' => 'Я принимаю условия соглашения и разрешаю обработку персональных данных',  ->  'agree' => \Yii::t('app', 'Я принимаю условия соглашения и разрешаю обработку персональных данных'), 
+
+//     'name' => 'Администратор',  ->  //     'name' => \Yii::t('app', 'Администратор'), 
+
+'name' => 'Владелец',  ->  'name' => \Yii::t('app', 'Владелец'), 
+
+'name' => 'Супервизор',  ->  'name' => \Yii::t('app', 'Супервизор'), 
+
+'name' => 'Сотрудник',  ->  'name' => \Yii::t('app', 'Сотрудник'), 
+
+$this->title = 'Восстановления пароля';  ->  $this->title = \Yii::t('app', 'Восстановления пароля'); 
+
+<p style="font-size: 14px; text-align: center;">Введите свой email для восстановления пароля</p>  ->  <p style="font-size: 14px; text-align: center;"><?=\Yii::t('app', 'Введите свой email для восстановления пароля')?></p> 
+
+<?= Html::submitButton('Далее', ['class' => 'btn btn-success btn-block btn-lg', 'name' => 'login-button']) ?>        </div>  ->  <?= Html::submitButton(\Yii::t('app', 'Далее'), ['class' => 'btn btn-success btn-block btn-lg', 'name' => 'login-button']) ?>        </div> 
+
+$this->title = 'Авторизация';  ->  $this->title = \Yii::t('app', 'Авторизация'); 
+
+<p style="font-size: 14px; text-align: center;">Введите данные для авторизации</p>  ->  <p style="font-size: 14px; text-align: center;"><?=\Yii::t('app', 'Введите данные для авторизации')?></p> 
+
+<?= Html::submitButton('Войти', ['class' => 'btn btn-success btn-block btn-lg', 'name' => 'login-button']) ?>        </div>  ->  <?= Html::submitButton(\Yii::t('app', 'Войти'), ['class' => 'btn btn-success btn-block btn-lg', 'name' => 'login-button']) ?>        </div> 
+
+<?= Html::a('Восстановить пароль', ['site/forget-password'], ['class' => 'pull-left']) ?>            <?= Html::a('Зарегистрироваться', ['site/register'], ['class' => 'pull-right']) ?>        </div>  ->  <?= Html::a(\Yii::t('app', 'Восстановить пароль'), ['site/forget-password'], ['class' => 'pull-left']) ?>            <?= Html::a('Зарегистрироваться', ['site/register'], ['class' => 'pull-right']) ?>        </div> 
+
+$this->title = 'Регистрация';  ->  $this->title = \Yii::t('app', 'Регистрация'); 
+
+<p style="font-size: 14px; text-align: center;">Введите данные для регистрации</p>  ->  <p style="font-size: 14px; text-align: center;"><?=\Yii::t('app', 'Введите данные для регистрации')?></p> 
+
+<?= $form->field($model, 'type')->dropDownList(app\models\Company::typeLabels(), ['prompt' => 'Выберите вариант']) ?>  ->  <?= $form->field($model, 'type')->dropDownList(app\models\Company::typeLabels(), ['prompt' => \Yii::t('app', 'Выберите вариант')]) ?> 
+
+<?= Html::submitButton('Регистрация', ['class' => 'btn btn-success btn-block btn-lg', 'name' => 'login-button']) ?>        </div>  ->  <?= Html::submitButton(\Yii::t('app', 'Регистрация'), ['class' => 'btn btn-success btn-block btn-lg', 'name' => 'login-button']) ?>        </div> 
+
+return \yii\helpers\Html::a('<i data-feather="copy"></i>', $url, ['role'=>'modal-remote','title'=>'Копировать', 'data-toggle'=>'tooltip', 'style' => 'color: #bc4677',]);  ->  return \yii\helpers\Html::a('<i data-feather="copy"></i>', $url, ['role'=>'modal-remote','title'=>\Yii::t('app', 'Копировать'), 'data-toggle'=>'tooltip', 'style' => 'color: #bc4677',]); 
+
+'data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip',  ->  'data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip', 
+
+'role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip',  ->  'role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip', 
+
+'role'=>'modal-remote','title'=>'Удалить',  ->  'role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию',  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию'), 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+'label' => 'Онлайн',  ->  'label' => \Yii::t('app', 'Онлайн'), 
+
+'day' => 'Понедельник',  ->  'day' => \Yii::t('app', 'Понедельник'), 
+
+'day' => 'Вторник',  ->  'day' => \Yii::t('app', 'Вторник'), 
+
+'day' => 'Среда',  ->  'day' => \Yii::t('app', 'Среда'), 
+
+'day' => 'Четверг',  ->  'day' => \Yii::t('app', 'Четверг'), 
+
+'day' => 'Пятница',  ->  'day' => \Yii::t('app', 'Пятница'), 
+
+'day' => 'Суббота',  ->  'day' => \Yii::t('app', 'Суббота'), 
+
+'day' => 'Воскресенье',  ->  'day' => \Yii::t('app', 'Воскресенье'), 
+
+<?= Html::a('Загрузить', '#', ['class' => 'btn btn-block btn-primary', 'onclick' => "event.preventDefault(); $('#amenities-filepicture').trigger('click');", 'style' => 'margin-top: 10px;']) ?>  ->  <?= Html::a(\Yii::t('app', 'Загрузить'), '#', ['class' => 'btn btn-block btn-primary', 'onclick' => "event.preventDefault(); $('#amenities-filepicture').trigger('click');", 'style' => 'margin-top: 10px;']) ?> 
+
+1 => 'Да',  ->  1 => \Yii::t('app', 'Да'), 
+
+0 => 'Нет',  ->  0 => \Yii::t('app', 'Нет'), 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+<?= $form->field($model, 'fileUploading', ['cols' => 12, 'colsOptionsStr' => " ", "checkPermission" => false])->fileInput()->label('Файл') ?>  ->  <?= $form->field($model, 'fileUploading', ['cols' => 12, 'colsOptionsStr' => " ", "checkPermission" => false])->fileInput()->label(\Yii::t('app', 'Файл')) ?> 
+
+<?= Html::a('Шаблон импорта', ['/import.xlsx'], ['title'=> 'Шаблон импорта', 'download' => true, 'class'=>'btn btn-warning']) ?>  ->  <?= Html::a(\Yii::t('app', 'Шаблон импорта'), ['/import.xlsx'], ['title'=> \Yii::t('app', 'Шаблон импорта'), 'download' => true, 'class'=>'btn btn-warning']) ?> 
+
+<x:Name>Заказы</x:Name>  ->  <x:Name><?=\Yii::t('app', 'Заказы</x:Name>')?> 
+
+$this->title = "Услуги";  ->  $this->title = \Yii::t('app', 'Услуги'); 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+<?= $form->field($model, 'fileUploading', ['cols' => 12, 'colsOptionsStr' => " ", "checkPermission" => false])->fileInput()->label('Файл') ?>  ->  <?= $form->field($model, 'fileUploading', ['cols' => 12, 'colsOptionsStr' => " ", "checkPermission" => false])->fileInput()->label(\Yii::t('app', 'Файл')) ?> 
+
+<?= Html::a('Шаблон импорта', ['temp'], ['title'=> 'Шаблон импорта', 'class'=>'btn btn-warning']) ?>  ->  <?= Html::a(\Yii::t('app', 'Шаблон импорта'), ['temp'], ['title'=> \Yii::t('app', 'Шаблон импорта'), 'class'=>'btn btn-warning']) ?> 
+
+$this->title = "Услуги график";  ->  $this->title = \Yii::t('app', 'Услуги график'); 
+
+['role'=>'modal-remote','title'=> 'Импорт', 'class'=>'btn btn-warning']),  ->  ['role'=>'modal-remote','title'=> \Yii::t('app', 'Импорт'), 'class'=>'btn btn-warning']), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+/*if($item->status == 'Ожидание клиента'){*/  ->  /*if($item->status == '<?=\Yii::t('app', 'Ожидание клиента')?>'){*/ 
+
+/*if($item->status == 'Клиент подтвердил'){*/  ->  /*if($item->status == '<?=\Yii::t('app', 'Клиент подтвердил')?>'){*/ 
+
+/*if($item->status == 'Отмена'){*/  ->  /*if($item->status == '<?=\Yii::t('app', 'Отмена')?>'){*/ 
+
+/*if($item->status == 'Клиент пришел'){*/  ->  /*if($item->status == '<?=\Yii::t('app', 'Клиент пришел')?>'){*/ 
+
+/*if($item->status == 'Клиент не пришел'){*/  ->  /*if($item->status == '<?=\Yii::t('app', 'Клиент не пришел')?>'){*/ 
+
+if($item->status == 'Ожидание клиента'){  ->  if($item->status == \Yii::t('app', 'Ожидание клиента')){ 
+
+if($item->status == 'Клиент подтвердил'){  ->  if($item->status == \Yii::t('app', 'Клиент подтвердил')){ 
+
+if($item->status == 'Отмена'){  ->  if($item->status == \Yii::t('app', 'Отмена')){ 
+
+if($item->status == 'Клиент пришел'){  ->  if($item->status == \Yii::t('app', 'Клиент пришел')){ 
+
+if($item->status == 'Клиент не пришел'){  ->  if($item->status == \Yii::t('app', 'Клиент не пришел')){ 
+
+$popupText[] = "ФИО: ".$client->name.' '.$client->last_name;  ->  $popupText[] = \Yii::t('app', 'ФИО: ')lient->name.' '.$client->last_name; 
+
+$popupText[] = "Телефон: ".$client->phone;  ->  $popupText[] = \Yii::t('app', 'Телефон: ')lient->phone; 
+
+$popupText[] = "Дата прошлого визита: ".($lastReservation ? $lastReservation->date.' '.$lastReservation->start_time : 'Новое');  ->  $popupText[] = \Yii::t('app', 'Дата прошлого визита: ')lastReservation ? $lastReservation->date.' '.$lastReservation->start_time : 'Новое'); 
+
+$popupText[] = 'Время записи: '.$item->start_time;  ->  $popupText[] = \Yii::t('app', 'Время записи: ')tem->start_time; 
+
+$popupText[] = 'Услуга: '.$servicesList;  ->  $popupText[] = \Yii::t('app', 'Услуга: ')ervicesList; 
+
+$popupText[] = 'Стоимость: '.$item->the_cost.' Kč';  ->  $popupText[] = \Yii::t('app', 'Стоимость: ')tem->the_cost.' Kč'; 
+
+<?= Html::a('Сегодня', ['calendar/index?date='.$date."&to=today"], ['class' => Yii::$app->controller->action->id == 'not-fin' ? 'btn btn-success' : 'btn btn-light']) ?>  ->  <?= Html::a(\Yii::t('app', 'Сегодня'), ['calendar/index?date='.$date."&to=today"], ['class' => Yii::$app->controller->action->id == 'not-fin' ? 'btn btn-success' : 'btn btn-light']) ?> 
+
+<?= Html::a('Завтра', ['calendar/index?date='.$date."&to=nextday"], ['class' => Yii::$app->controller->action->id == 'ap-in-job' ? 'btn btn-success' : 'btn btn-light']) ?>  ->  <?= Html::a(\Yii::t('app', 'Завтра'), ['calendar/index?date='.$date."&to=nextday"], ['class' => Yii::$app->controller->action->id == 'ap-in-job' ? 'btn btn-success' : 'btn btn-light']) ?> 
+
+<?= Html::a('После завтра', ['calendar/index?date='.$date."&to=nexnextday"], ['class' => Yii::$app->controller->action->id == 'in-job' ? 'btn btn-success' : 'btn btn-light']) ?>  ->  <?= Html::a(\Yii::t('app', 'После завтра'), ['calendar/index?date='.$date."&to=nexnextday"], ['class' => Yii::$app->controller->action->id == 'in-job' ? 'btn btn-success' : 'btn btn-light']) ?> 
+
+$popupText[] = "ФИО: ".$client->name.' '.$client->last_name;  ->  $popupText[] = \Yii::t('app', 'ФИО: ')lient->name.' '.$client->last_name; 
+
+$popupText[] = "Телефон: ".$client->phone;  ->  $popupText[] = \Yii::t('app', 'Телефон: ')lient->phone; 
+
+$popupText[] = "Дата прошлого визита: ".($lastReservation ? $lastReservation->date.' '.$lastReservation->start_time : 'Новый');  ->  $popupText[] = \Yii::t('app', 'Дата прошлого визита: ')lastReservation ? $lastReservation->date.' '.$lastReservation->start_time : 'Новый'); 
+
+$popupText[] = 'Время записи: '.$reservation->start_time;  ->  $popupText[] = \Yii::t('app', 'Время записи: ')eservation->start_time; 
+
+$popupText[] = 'Услуга: '.$servicesList;  ->  $popupText[] = \Yii::t('app', 'Услуга: ')ervicesList; 
+
+$popupText[] = 'Стоимость: '.$reservation->the_cost.' Kč';  ->  $popupText[] = \Yii::t('app', 'Стоимость: ')eservation->the_cost.' Kč'; 
+
+if($reservation->status == 'Ожидание клиента'){  ->  if($reservation->status == \Yii::t('app', 'Ожидание клиента')){ 
+
+if($reservation->status == 'Клиент подтвердил'){  ->  if($reservation->status == \Yii::t('app', 'Клиент подтвердил')){ 
+
+if($reservation->status == 'Отмена'){  ->  if($reservation->status == \Yii::t('app', 'Отмена')){ 
+
+if($reservation->status == 'Клиент пришел'){  ->  if($reservation->status == \Yii::t('app', 'Клиент пришел')){ 
+
+if($reservation->status == 'Клиент не пришел'){  ->  if($reservation->status == \Yii::t('app', 'Клиент не пришел')){ 
+
+//                    'role'=>'modal-remote','title'=>'Отменить',  ->  //                    'role'=>'modal-remote','title'=>\Yii::t('app', 'Отменить'), 
+
+//                    'data-confirm-title'=>'Вы уверены?',  ->  //                    'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+//                    'data-confirm-message'=>'Вы уверены что хотите отменить данную заявку',  ->  //                    'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите отменить данную заявку'), 
+
+//        'body' => 'ТЕСТОВОЕ ТЕЛО',  ->  //        'body' => \Yii::t('app', 'ТЕСТОВОЕ ТЕЛО'), 
+
+'role'=>'modal-remote','title'=>'Отменить',  ->  'role'=>'modal-remote','title'=>\Yii::t('app', 'Отменить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите отменить данную заявку',  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите отменить данную заявку'), 
+
+'body' => 'ТЕСТОВОЕ ТЕЛО',  ->  'body' => \Yii::t('app', 'ТЕСТОВОЕ ТЕЛО'), 
+
+<?= Html::a('Неделя назад', ['calendar/index2', 'date' => $previusDate, 'masterId' => $masterId], ['class' => 'btn btn-light']) ?>  ->  <?= Html::a(\Yii::t('app', 'Неделя назад'), ['calendar/index2', 'date' => $previusDate, 'masterId' => $masterId], ['class' => 'btn btn-light']) ?> 
+
+<?= Html::a('Неделя вперед', ['calendar/index2', 'date' => $nextDate, 'masterId' => $masterId], ['class' => 'btn btn-light']) ?>  ->  <?= Html::a(\Yii::t('app', 'Неделя вперед'), ['calendar/index2', 'date' => $nextDate, 'masterId' => $masterId], ['class' => 'btn btn-light']) ?> 
+
+<?= Html::a('Сегодня', ['calendar/index2?date='.$date."&to=today&masterId=".$masterId], ['class' => Yii::$app->controller->action->id == 'not-fin' ? 'btn btn-success' : 'btn btn-light']) ?>  ->  <?= Html::a(\Yii::t('app', 'Сегодня'), ['calendar/index2?date='.$date."&to=today&masterId=".$masterId], ['class' => Yii::$app->controller->action->id == 'not-fin' ? 'btn btn-success' : 'btn btn-light']) ?> 
+
+<?= Html::a('Завтра', ['calendar/index2?date='.$date."&to=nextday&masterId=".$masterId], ['class' => Yii::$app->controller->action->id == 'ap-in-job' ? 'btn btn-success' : 'btn btn-light']) ?>  ->  <?= Html::a(\Yii::t('app', 'Завтра'), ['calendar/index2?date='.$date."&to=nextday&masterId=".$masterId], ['class' => Yii::$app->controller->action->id == 'ap-in-job' ? 'btn btn-success' : 'btn btn-light']) ?> 
+
+<?= Html::a('После завтра', ['calendar/index2?date='.$date."&to=nexnextday&masterId=".$masterId], ['class' => Yii::$app->controller->action->id == 'in-job' ? 'btn btn-success' : 'btn btn-light']) ?>  ->  <?= Html::a(\Yii::t('app', 'После завтра'), ['calendar/index2?date='.$date."&to=nexnextday&masterId=".$masterId], ['class' => Yii::$app->controller->action->id == 'in-job' ? 'btn btn-success' : 'btn btn-light']) ?> 
+
+daynames: ['ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'],  ->  daynames: [\Yii::t('app', 'ВС'), 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'], 
+
+$popupText[] = "ФИО: ".$client->name.' '.$client->last_name;  ->  $popupText[] = \Yii::t('app', 'ФИО: ')lient->name.' '.$client->last_name; 
+
+$popupText[] = "Телефон: ".$client->phone;  ->  $popupText[] = \Yii::t('app', 'Телефон: ')lient->phone; 
+
+$popupText[] = "Дата прошлого визита: ".($lastReservation ? $lastReservation->date.' '.$lastReservation->start_time : 'Новый');  ->  $popupText[] = \Yii::t('app', 'Дата прошлого визита: ')lastReservation ? $lastReservation->date.' '.$lastReservation->start_time : 'Новый'); 
+
+$popupText[] = 'Время записи: '.$reservation['start_time'];  ->  $popupText[] = \Yii::t('app', 'Время записи: ')eservation['start_time']; 
+
+$popupText[] = 'Услуга: '.$servicesList;  ->  $popupText[] = \Yii::t('app', 'Услуга: ')ervicesList; 
+
+$popupText[] = 'Стоимость: '.$reservation['the_cost'].' Kč';  ->  $popupText[] = \Yii::t('app', 'Стоимость: ')eservation['the_cost'].' Kč'; 
+
+if($reservation['status'] == 'Ожидание клиента'){  ->  if($reservation['status'] == \Yii::t('app', 'Ожидание клиента')){ 
+
+if($reservation['status'] == 'Клиент подтвердил'){  ->  if($reservation['status'] == \Yii::t('app', 'Клиент подтвердил')){ 
+
+if($reservation['status'] == 'Отмена'){  ->  if($reservation['status'] == \Yii::t('app', 'Отмена')){ 
+
+if($reservation['status'] == 'Клиент пришел'){  ->  if($reservation['status'] == \Yii::t('app', 'Клиент пришел')){ 
+
+if($reservation['status'] == 'Клиент не пришел'){  ->  if($reservation['status'] == \Yii::t('app', 'Клиент не пришел')){ 
+
+'role'=>'modal-remote','title'=>'Отменить',  ->  'role'=>'modal-remote','title'=>\Yii::t('app', 'Отменить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите отменить данную заявку',  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите отменить данную заявку'), 
+
+'body' => 'ТЕСТОВОЕ ТЕЛО',  ->  'body' => \Yii::t('app', 'ТЕСТОВОЕ ТЕЛО'), 
+
+daynames: ['ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'],  ->  daynames: [\Yii::t('app', 'ВС'), 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'], 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+<?= $form->field($model, 'fileUploading', ['cols' => 12, 'colsOptionsStr' => " ", "checkPermission" => false])->fileInput()->label('Файл') ?>  ->  <?= $form->field($model, 'fileUploading', ['cols' => 12, 'colsOptionsStr' => " ", "checkPermission" => false])->fileInput()->label(\Yii::t('app', 'Файл')) ?> 
+
+<?= Html::a('Шаблон импорта', '/temp_categories.xlsx', ['title'=> 'Шаблон импорта', 'download' => true, 'class'=>'btn btn-warning']) ?>  ->  <?= Html::a(\Yii::t('app', 'Шаблон импорта'), '/temp_categories.xlsx', ['title'=> \Yii::t('app', 'Шаблон импорта'), 'download' => true, 'class'=>'btn btn-warning']) ?> 
+
+$this->title = "Категории";  ->  $this->title = \Yii::t('app', 'Категории'); 
+
+['role'=>'modal-remote','title'=> 'Импорт', 'class'=>'btn btn-warning']),  ->  ['role'=>'modal-remote','title'=> \Yii::t('app', 'Импорт'), 'class'=>'btn btn-warning']), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+<?= $form->field($model, 'fileUploading', ['cols' => 12, 'colsOptionsStr' => " ", "checkPermission" => false])->fileInput()->label('Файл') ?>  ->  <?= $form->field($model, 'fileUploading', ['cols' => 12, 'colsOptionsStr' => " ", "checkPermission" => false])->fileInput()->label(\Yii::t('app', 'Файл')) ?> 
+
+<?= Html::a('Шаблон импорта', ['temp'], ['title'=> 'Шаблон импорта', 'class'=>'btn btn-warning']) ?>  ->  <?= Html::a(\Yii::t('app', 'Шаблон импорта'), ['temp'], ['title'=> \Yii::t('app', 'Шаблон импорта'), 'class'=>'btn btn-warning']) ?> 
+
+$this->title = "Клиент";  ->  $this->title = \Yii::t('app', 'Клиент'); 
+
+['role'=>'modal-remote','title'=> 'Импорт', 'class'=>'btn btn-warning']),  ->  ['role'=>'modal-remote','title'=> \Yii::t('app', 'Импорт'), 'class'=>'btn btn-warning']), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+$this->title = "Комментарий";  ->  $this->title = \Yii::t('app', 'Комментарий'); 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+<?= $form->field($model, 'fileUploading', ['cols' => 12, 'colsOptionsStr' => " ", "checkPermission" => false])->fileInput()->label('Файл') ?>  ->  <?= $form->field($model, 'fileUploading', ['cols' => 12, 'colsOptionsStr' => " ", "checkPermission" => false])->fileInput()->label(\Yii::t('app', 'Файл')) ?> 
+
+<?= Html::a('Шаблон импорта', ['temp'], ['title'=> 'Шаблон импорта', 'class'=>'btn btn-warning']) ?>  ->  <?= Html::a(\Yii::t('app', 'Шаблон импорта'), ['temp'], ['title'=> \Yii::t('app', 'Шаблон импорта'), 'class'=>'btn btn-warning']) ?> 
+
+$this->title = "Комментарий мастеров";  ->  $this->title = \Yii::t('app', 'Комментарий мастеров'); 
+
+['role'=>'modal-remote','title'=> 'Импорт', 'class'=>'btn btn-warning']),  ->  ['role'=>'modal-remote','title'=> \Yii::t('app', 'Импорт'), 'class'=>'btn btn-warning']), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+'Auto (Kompletační studia, autoservisy a myčky aut)' => 'Auto (Kompletační studia, autoservisy a myčky aut)',  ->  'Auto (Kompleta\Yii::t('app', ční studia, autoservisy a myčky aut)' => 'Auto (Kompletační studia, autoservisy a myčky aut)',) 
+
+'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxační centra)' => 'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxační centra)',  ->  'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxa\Yii::t('app', ční centra)' => 'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxační centra)',) 
+
+'Krása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)' => 'Krása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)',  ->  'Kr\Yii::t('app', ása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)' => 'Krása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)',) 
+
+'Zábava (Kina, bowling, biliár aj.)' => 'Zábava (Kina, bowling, biliár aj.)',  ->  'Z\Yii::t('app', ábava (Kina, bowling, biliár aj.)' => 'Zábava (Kina, bowling, biliár aj.)',) 
+
+'Maloobchod (Řešení pro maloobchody)' => 'Maloobchod (Řešení pro maloobchody)',  ->  'Maloobchod (\Yii::t('app', Řešení pro maloobchody)' => 'Maloobchod (Řešení pro maloobchody)',) 
+
+'HoReCa (Hotely, kavárny, bary, restaurace)' => 'HoReCa (Hotely, kavárny, bary, restaurace)',  ->  'HoReCa (Hotely, kav\Yii::t('app', árny, bary, restaurace)' => 'HoReCa (Hotely, kavárny, bary, restaurace)',) 
+
+], ['prompt' => 'Выберите вариант']) ?>  ->  ], ['prompt' => '<?=\Yii::t('app', 'Выберите вариант')?>']) ?> 
+
+<?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+$this->title = "Компании";  ->  $this->title = \Yii::t('app', 'Компании'); 
+
+<h4 class="panel-title">Компании</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Компании')?></h4> 
+
+'panelBeforeTemplate' => Html::a('Добавить <i class="fa fa-plus"></i>', ['create'],  ->  'panelBeforeTemplate' => Html::a(\Yii::t('app', 'Добавить <i class="fa fa-plus">').'</i>', ['create'], 
+
+'title' => 'Добавить компанию',  ->  'title' => \Yii::t('app', 'Добавить компанию'), 
+
+['data-pjax' => 1, 'class' => 'btn btn-white', 'title' => 'Обновить']),  ->  ['data-pjax' => 1, 'class' => 'btn btn-white', 'title' => \Yii::t('app', 'Обновить')]), 
+
+'buttons' => Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; Удалить',  ->  'buttons' => Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; '.\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title' => 'Вы уверены?',  ->  'data-confirm-title' => \Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message' => 'Вы действительно хотите удалить данный элемент?'  ->  'data-confirm-message' => \Yii::t('app', 'Вы действительно хотите удалить данный элемент?') 
+
+<h4 class="panel-title">Основная информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Основная информация')?></h4> 
+
+<h4>Реквизиты</h4>  ->  <h4><?=\Yii::t('app', 'Реквизиты')?></h4> 
+
+return 'Поставщик';  ->  return \Yii::t('app', 'Поставщик'); 
+
+return 'Покупатель';  ->  return \Yii::t('app', 'Покупатель'); 
+
+return 'Суперкомпания';  ->  return \Yii::t('app', 'Суперкомпания'); 
+
+<p>АПИ ключ: </p>  ->  <p><?=\Yii::t('app', 'АПИ ключ: ')?></p> 
+
+<?= Html::button('Сгенерировать заново', [  ->  <?= Html::button(\Yii::t('app', 'Сгенерировать заново'), [ 
+
+<p>Доступ к АПИ запрещен, для получения доступа обратитесь к администратору системы </p>  ->  <p><?=\Yii::t('app', 'Доступ к АПИ запрещен, для получения доступа обратитесь к администратору системы ')?></p> 
+
+<?= Html::a('Редактировать',  ->  <?= Html::a(\Yii::t('app', 'Редактировать'), 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+'label' => 'Имя бота для сотрудника',  ->  'label' => \Yii::t('app', 'Имя бота для сотрудника'), 
+
+'label' => 'Ссылка виджета',  ->  'label' => \Yii::t('app', 'Ссылка виджета'), 
+
+<span>Общие настройки</span>  ->  <span><?=\Yii::t('app', 'Общие настройки')?></span> 
+
+<span>Виджет</span>  ->  <span><?=\Yii::t('app', 'Виджет')?></span> 
+
+<b>Разместить код на сайт</b>  ->  <b><?=\Yii::t('app', 'Разместить код на сайт')?></b> 
+
+✔️ Ваши клиенты смогут записаться к вам через instagram <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-instagram"></i></a>                    <br><br>  ->  ✔️ Ваши клиенты смогут записаться к вам через instagram <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-instagram"></i></a>                    <br><br> 
+
+✔️ Если у вас есть страница Facebook, пожалуйста, следуйте инструкциям <a href="https://www.facebook.com/help/977869848936797?locale=en_US" target="_blank">здесь</a>  ->  <?=\Yii::t('app', '✔️ Если у вас есть страница Facebook, пожалуйста, следуйте инструкциям <a href="https://www.facebook.com/help/977869848936797?locale=en_US" target="_blank">здесь')?></a> 
+
+✔️ Вы можете просто разместить данную ссылку на своем сайте, создав кнопку бронирования или отредактировав уже существующую. Для этого вам может понадобиться помощь специалиста.       ->  <?=\Yii::t('app', '✔️ Вы можете просто разместить данную ссылку на своем сайте, создав кнопку бронирования или отредактировав уже существующую. Для этого вам может понадобиться помощь специалиста.     ')?> 
+
+✔️ Все выше перечисленными образами, Вы превращаете онлайн посетителей в своих клиентов.  ->  <?=\Yii::t('app', '✔️ Все выше перечисленными образами, Вы превращаете онлайн посетителей в своих клиентов.')?> 
+
+<span>Телеграмм бот</span>  ->  <span><?=\Yii::t('app', 'Телеграмм бот')?></span> 
+
+Имя бота для сотрудника  ->  <?=\Yii::t('app', 'Имя бота для сотрудника')?> 
+
+Токен бота клиента  ->  <?=\Yii::t('app', 'Токен бота клиента')?> 
+
+<span class="text-danger">Токен не найден</span>  ->  <span class="text-danger"><?=\Yii::t('app', 'Токен не найден')?></span> 
+
+Бот для записи  ->  <?=\Yii::t('app', 'Бот для записи')?> 
+
+<?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+// $('.copy-result').html('Скопировано в буфер обмена');  ->  // $('.copy-result').html(\Yii::t('app', 'Скопировано в буфер обмена')); 
+
+alert('Скопировано в буфер обмена');  ->  alert(\Yii::t('app', 'Скопировано в буфер обмена')); 
+
+$this->title = "Онлайн запись";  ->  $this->title = \Yii::t('app', 'Онлайн запись'); 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+// $('.copy-result').html('Скопировано в буфер обмена');  ->  // $('.copy-result').html(\Yii::t('app', 'Скопировано в буфер обмена')); 
+
+toastr.success('Скопировано в буфер обмена');  ->  toastr.success(\Yii::t('app', 'Скопировано в буфер обмена')); 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+<?= Html::a('Сегодня', ['#'], ['class' => 'btn btn-success']) ?>  ->  <?= Html::a(\Yii::t('app', 'Сегодня'), ['#'], ['class' => 'btn btn-success']) ?> 
+
+<?= Html::a('Вчера', ['#'], ['class' => 'btn btn-default']) ?>  ->  <?= Html::a(\Yii::t('app', 'Вчера'), ['#'], ['class' => 'btn btn-default']) ?> 
+
+<?= Html::a('Неделя', ['#'], ['class' => 'btn btn-default']) ?>  ->  <?= Html::a(\Yii::t('app', 'Неделя'), ['#'], ['class' => 'btn btn-default']) ?> 
+
+<?= Html::a('Пред. неделя', ['#'], ['class' => 'btn btn-default']) ?>  ->  <?= Html::a(\Yii::t('app', 'Пред. неделя'), ['#'], ['class' => 'btn btn-default']) ?> 
+
+<?= Html::a('Месяц', ['#'], ['class' => 'btn btn-default']) ?>  ->  <?= Html::a(\Yii::t('app', 'Месяц'), ['#'], ['class' => 'btn btn-default']) ?> 
+
+<?= Html::a('Пред. месяц', ['#'], ['class' => 'btn btn-default']) ?>  ->  <?= Html::a(\Yii::t('app', 'Пред. месяц'), ['#'], ['class' => 'btn btn-default']) ?> 
+
+<h4 class="panel-title">Обороты денежных средств</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Обороты денежных средств')?></h4> 
+
+<th scope="col">Банк</th>  ->  <th scope="col"><?=\Yii::t('app', 'Банк')?></th> 
+
+<th scope="col">Касса</th>  ->  <th scope="col"><?=\Yii::t('app', 'Касса')?></th> 
+
+<th scope="row"><b>Приход</b></th>  ->  <th scope="row"><b><?=\Yii::t('app', 'Приход')?></b></th> 
+
+<th scope="row"><b>Расход</b></th>  ->  <th scope="row"><b><?=\Yii::t('app', 'Расход')?></b></th> 
+
+<th scope="row"><b>Остаток</b></th>  ->  <th scope="row"><b><?=\Yii::t('app', 'Остаток')?></b></th> 
+
+<h4 class="panel-title">Остатки денежных средств</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Остатки денежных средств')?></h4> 
+
+<p style="font-size: 14px; margin-bottom: 5px; margin-top: 0;">Банк</p>  ->  <p style="font-size: 14px; margin-bottom: 5px; margin-top: 0;"><?=\Yii::t('app', 'Банк')?></p> 
+
+<p style="font-size: 14px; margin-bottom: 5px; margin-top: 5px;">Касса</p>  ->  <p style="font-size: 14px; margin-bottom: 5px; margin-top: 5px;"><?=\Yii::t('app', 'Касса')?></p> 
+
+<p style="font-size: 14px; margin-bottom: 5px; margin-top: 5px;">Общие итоги</p>  ->  <p style="font-size: 14px; margin-bottom: 5px; margin-top: 5px;"><?=\Yii::t('app', 'Общие итоги')?></p> 
+
+<h4 class="panel-title">Показатели по менеджерам</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Показатели по менеджерам')?></h4> 
+
+<h4 class="panel-title">Задолжность</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Задолжность')?></h4> 
+
+<th scope="col">Контрагент</th>  ->  <th scope="col"><?=\Yii::t('app', 'Контрагент')?></th> 
+
+<th scope="col">Задолжность</th>  ->  <th scope="col"><?=\Yii::t('app', 'Задолжность')?></th> 
+
+<td>ООО «Вкусные продукты»</td>  ->  <td><?=\Yii::t('app', 'ООО «Вкусные продукты»')?></td> 
+
+<td>Всего</td>  ->  <td><?=\Yii::t('app', 'Всего')?></td> 
+
+<h4 class="panel-title">Показатели компании</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Показатели компании')?></h4> 
+
+<h4 class="panel-title">Диаграмма по менеджерам</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Диаграмма по менеджерам')?></h4> 
+
+labels: ['01-Март', '02-Март', '03-Март', '04-Март', '05-Март', '06-Март', '07-Март'],  ->  labels: ['01-<?=\Yii::t('app', 'Март')?>', '02-<?=\Yii::t('app', 'Март')?>', '03-<?=\Yii::t('app', 'Март')?>', '04-<?=\Yii::t('app', 'Март')?>', '05-<?=\Yii::t('app', 'Март')?>', '06-<?=\Yii::t('app', 'Март')?>', '07-<?=\Yii::t('app', 'Март')?>'], 
+
+label: 'Принято заказов',  ->  label: '<?=\Yii::t('app', 'Принято заказов')?>', 
+
+labels: ['01-Март', '02-Март', '03-Март', '04-Март', '05-Март', '06-Март', '07-Март'],  ->  labels: ['01-<?=\Yii::t('app', 'Март')?>', '02-<?=\Yii::t('app', 'Март')?>', '03-<?=\Yii::t('app', 'Март')?>', '04-<?=\Yii::t('app', 'Март')?>', '05-<?=\Yii::t('app', 'Март')?>', '06-<?=\Yii::t('app', 'Март')?>', '07-<?=\Yii::t('app', 'Март')?>'], 
+
+label: 'Прибыль',  ->  label: '<?=\Yii::t('app', 'Прибыль')?>', 
+
+label: 'Сумма заказов',  ->  label: '<?=\Yii::t('app', 'Сумма заказов')?>', 
+
+labels: ['01-Март', '02-Март', '03-Март', '04-Март', '05-Март', '06-Март', '07-Март'],  ->  labels: ['01-<?=\Yii::t('app', 'Март')?>', '02-<?=\Yii::t('app', 'Март')?>', '03-<?=\Yii::t('app', 'Март')?>', '04-<?=\Yii::t('app', 'Март')?>', '05-<?=\Yii::t('app', 'Март')?>', '06-<?=\Yii::t('app', 'Март')?>', '07-<?=\Yii::t('app', 'Март')?>'], 
+
+label: 'Менеджер',  ->  label: '<?=\Yii::t('app', 'Менеджер')?>', 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+$this->title = "Избраное";  ->  $this->title = \Yii::t('app', 'Избраное'); 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+<!--                                        <input type="text" class="form-control" placeholder="Поиск">-->  ->  <!--                                        <input type="text" class="form-control" placeholder="<?=\Yii::t('app', 'Поиск')?>">--> 
+
+<?= Html::a('Выйти', ['/site/logout'], ['data-method' => 'post', 'class' => 'list-group-item text-danger']) ?>  ->  <?= Html::a(\Yii::t('app', 'Выйти'), ['/site/logout'], ['data-method' => 'post', 'class' => 'list-group-item text-danger']) ?> 
+
+<title>Аuthorization</title>  ->  <title><?=\Yii::t('app', 'Аuthorization')?></title> 
+
+<strong>Ошибка!</strong>  ->  <strong><?=\Yii::t('app', 'Ошибка!')?></strong> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+[title='Выберите формат файла для экспорта']{  ->  [title='<?=\Yii::t('app', 'Выберите формат файла для экспорта')?>']{ 
+
+[title='Выберите формат файла для экспорта']{  ->  [title='<?=\Yii::t('app', 'Выберите формат файла для экспорта')?>']{ 
+
+if(confirm('Вы действительно хотите отменить запись')){  ->  if(confirm('<?=\Yii::t('app', 'Вы действительно хотите отменить запись')?>')){ 
+
+alert('Запись успешно отменена');  ->  alert('<?=\Yii::t('app', 'Запись успешно отменена')?>'); 
+
+alert('Во время запроса произошла ошибка');  ->  alert('<?=\Yii::t('app', 'Во время запроса произошла ошибка')?>'); 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<strong>Уведомление!</strong>  ->  <strong><?=\Yii::t('app', 'Уведомление!')?></strong> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<strong>Внимание!</strong>  ->  <strong><?=\Yii::t('app', 'Внимание!')?></strong> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<strong>Ошибка!</strong>  ->  <strong><?=\Yii::t('app', 'Ошибка!')?></strong> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+[title='Выберите формат файла для экспорта']{  ->  [title='<?=\Yii::t('app', 'Выберите формат файла для экспорта')?>']{ 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<strong>Уведомление!</strong>  ->  <strong><?=\Yii::t('app', 'Уведомление!')?></strong> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<strong>Внимание!</strong>  ->  <strong><?=\Yii::t('app', 'Внимание!')?></strong> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<strong>Ошибка!</strong>  ->  <strong><?=\Yii::t('app', 'Ошибка!')?></strong> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<title>Аuthorization</title>  ->  <title><?=\Yii::t('app', 'Аuthorization')?></title> 
+
+<strong>Ошибка!</strong>  ->  <strong><?=\Yii::t('app', 'Ошибка!')?></strong> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<div>© 2020 Muson - <a href="http://laborasyon.com" target="_blank">Laborasyon</a></div>  ->  <div><?=\Yii::t('app', '© 2020 Muson - <a href="http://laborasyon.com" target="_blank">Laborasyon')?></a></div> 
+
+[title='Выберите формат файла для экспорта']{  ->  [title='<?=\Yii::t('app', 'Выберите формат файла для экспорта')?>']{ 
+
+[title='Выберите формат файла для экспорта']{  ->  [title='<?=\Yii::t('app', 'Выберите формат файла для экспорта')?>']{ 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<strong>Уведомление!</strong>  ->  <strong><?=\Yii::t('app', 'Уведомление!')?></strong> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<strong>Внимание!</strong>  ->  <strong><?=\Yii::t('app', 'Внимание!')?></strong> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+<strong>Ошибка!</strong>  ->  <strong><?=\Yii::t('app', 'Ошибка!')?></strong> 
+
+<span class="close" data-dismiss="alert">×</span>  ->  <span class="close" data-dismiss="alert"><?=\Yii::t('app', '×')?></span> 
+
+[title='Выберите формат файла для экспорта']{  ->  [title='<?=\Yii::t('app', 'Выберите формат файла для экспорта')?>']{ 
+
+return \yii\helpers\Html::a('<i data-feather="copy"></i>', $url, ['role'=>'modal-remote','title'=>'Копировать', 'data-toggle'=>'tooltip', 'style' => 'color: #bc4677',]);  ->  return \yii\helpers\Html::a('<i data-feather="copy"></i>', $url, ['role'=>'modal-remote','title'=>\Yii::t('app', 'Копировать'), 'data-toggle'=>'tooltip', 'style' => 'color: #bc4677',]); 
+
+'data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip',  ->  'data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip', 
+
+'role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip',  ->  'role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip', 
+
+'role'=>'modal-remote','title'=>'Удалить',  ->  'role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию',  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию'), 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+'label' => 'Сотрудник онлайн',  ->  'label' => \Yii::t('app', 'Сотрудник онлайн'), 
+
+'day' => 'Понедельник',  ->  'day' => \Yii::t('app', 'Понедельник'), 
+
+'day' => 'Вторник',  ->  'day' => \Yii::t('app', 'Вторник'), 
+
+'day' => 'Среда',  ->  'day' => \Yii::t('app', 'Среда'), 
+
+'day' => 'Четверг',  ->  'day' => \Yii::t('app', 'Четверг'), 
+
+'day' => 'Пятница',  ->  'day' => \Yii::t('app', 'Пятница'), 
+
+'day' => 'Суббота',  ->  'day' => \Yii::t('app', 'Суббота'), 
+
+'day' => 'Воскресенье',  ->  'day' => \Yii::t('app', 'Воскресенье'), 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+$this->title = "Сотрудник";  ->  $this->title = \Yii::t('app', 'Сотрудник'); 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+$this->title = "Сотрудник график";  ->  $this->title = \Yii::t('app', 'Сотрудник график'); 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+$this->title = "Не рабочие дни";  ->  $this->title = \Yii::t('app', 'Не рабочие дни'); 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+$this->title = "Уведомления";  ->  $this->title = \Yii::t('app', 'Уведомления'); 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+$this->title = "Заказы";  ->  $this->title = \Yii::t('app', 'Заказы'); 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+<span>Общие настройки</span>  ->  <span><?=\Yii::t('app', 'Общие настройки')?></span> 
+
+<span>Виджет</span>  ->  <span><?=\Yii::t('app', 'Виджет')?></span> 
+
+<b>Разместить виджет</b>  ->  <b><?=\Yii::t('app', 'Разместить виджет')?></b> 
+
+✔️ Ваши клиенты смогут записаться к вам через instagram. Подробнее здесь <a href="https://bondus.cz/instagramlink" target="_blank" class="btn btn-sm btn-primary"><i class="fa fa-instagram"></i></a>                    <br><br>  ->  ✔️ Ваши клиенты смогут записаться к вам через instagram. Подробнее здесь <a href="https://bondus.cz/instagramlink" target="_blank" class="btn btn-sm btn-primary"><i class="fa fa-instagram"></i></a>                    <br><br> 
+
+✔️ Если у вас есть страница <b>Facebook</b>, пожалуйста, следуйте инструкциям здесь <a href="https://www.facebook.com/help/977869848936797?locale=en_US" class="btn btn-sm btn-primary"><i class="fa fa-facebook"></i></a>  ->  ✔️ Если у вас есть страница <b>Facebook</b>, пожалуйста, следуйте инструкциям здесь <a href="https://www.facebook.com/help/977869848936797?locale=en_US" class="btn btn-sm btn-primary"><i class="fa fa-facebook"></i></a> 
+
+✔️ Вы можете просто разместить данную ссылку на своем сайте, создав кнопку бронирования или отредактировав уже существующую. Для этого вам может понадобиться помощь специалиста.       ->  <?=\Yii::t('app', '✔️ Вы можете просто разместить данную ссылку на своем сайте, создав кнопку бронирования или отредактировав уже существующую. Для этого вам может понадобиться помощь специалиста.     ')?> 
+
+✔️ Все выше перечисленными образами, Вы превращаете онлайн посетителей в своих клиентов.  ->  <?=\Yii::t('app', '✔️ Все выше перечисленными образами, Вы превращаете онлайн посетителей в своих клиентов.')?> 
+
+<span>Телеграмм бот</span>  ->  <span><?=\Yii::t('app', 'Телеграмм бот')?></span> 
+
+Имя бота для сотрудника  ->  <?=\Yii::t('app', 'Имя бота для сотрудника')?> 
+
+Токен бота клиента  ->  <?=\Yii::t('app', 'Токен бота клиента')?> 
+
+<span class="text-danger">Токен не найден</span>  ->  <span class="text-danger"><?=\Yii::t('app', 'Токен не найден')?></span> 
+
+Бот для записи  ->  <?=\Yii::t('app', 'Бот для записи')?> 
+
+✔️ Для настройки ботов, перейдите в <a href="https://bondus.cz/startonline#rec424076175" target="_blank">Базу Знаний</a>  ->  <?=\Yii::t('app', '✔️ Для настройки ботов, перейдите в <a href="https://bondus.cz/startonline#rec424076175" target="_blank">Базу Знаний')?></a> 
+
+// $('.copy-result').html('Скопировано в буфер обмена');  ->  // $('.copy-result').html(\Yii::t('app', 'Скопировано в буфер обмена')); 
+
+alert('Скопировано в буфер обмена');  ->  alert(\Yii::t('app', 'Скопировано в буфер обмена')); 
+
+<?= Html::a('Загрузить', '#', ['class' => 'btn btn-block btn-primary', 'onclick' => "event.preventDefault(); $('#user-avatarfile').trigger('click');", 'style' => 'margin-top: 10px;']) ?>  ->  <?= Html::a(\Yii::t('app', 'Загрузить'), '#', ['class' => 'btn btn-block btn-primary', 'onclick' => "event.preventDefault(); $('#user-avatarfile').trigger('click');", 'style' => 'margin-top: 10px;']) ?> 
+
+					<label>Дата регистрации</label>  ->  					<label><?=\Yii::t('app', 'Дата регистрации')?></label> 
+
+'Auto (Kompletační studia, autoservisy a myčky aut)' => 'Auto (Kompletační studia, autoservisy a myčky aut)',  ->  'Auto (Kompleta\Yii::t('app', ční studia, autoservisy a myčky aut)' => 'Auto (Kompletační studia, autoservisy a myčky aut)',) 
+
+'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxační centra)' => 'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxační centra)',  ->  'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxa\Yii::t('app', ční centra)' => 'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxační centra)',) 
+
+'Krása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)' => 'Krása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)',  ->  'Kr\Yii::t('app', ása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)' => 'Krása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)',) 
+
+'Zábava (Kina, bowling, biliár aj.)' => 'Zábava (Kina, bowling, biliár aj.)',  ->  'Z\Yii::t('app', ábava (Kina, bowling, biliár aj.)' => 'Zábava (Kina, bowling, biliár aj.)',) 
+
+'Maloobchod (Řešení pro maloobchody)' => 'Maloobchod (Řešení pro maloobchody)',  ->  'Maloobchod (\Yii::t('app', Řešení pro maloobchody)' => 'Maloobchod (Řešení pro maloobchody)',) 
+
+'HoReCa (Hotely, kavárny, bary, restaurace)' => 'HoReCa (Hotely, kavárny, bary, restaurace)',  ->  'HoReCa (Hotely, kav\Yii::t('app', árny, bary, restaurace)' => 'HoReCa (Hotely, kavárny, bary, restaurace)',) 
+
+], ['prompt' => 'Выберите вариант']) ?>  ->  ], ['prompt' => '<?=\Yii::t('app', 'Выберите вариант')?>']) ?> 
+
+		<?= Html::submitButton('Сохранить', ['class' => 'btn btn-primary pull-right']) ?>  ->  		<?= Html::submitButton(\Yii::t('app', 'Сохранить'), ['class' => 'btn btn-primary pull-right']) ?> 
+
+$this->title = "Роли";  ->  $this->title = \Yii::t('app', 'Роли'); 
+
+<h4 class="panel-title" style="float: left;">Роли</h4>  ->  <h4 class="panel-title" style="float: left;"><?=\Yii::t('app', 'Роли')?></h4> 
+
+<?= Html::a('Добавить <i class="fa fa-plus"></i>', ['/role/create'],  ->  <?= Html::a(\Yii::t('app', 'Добавить <i class="fa fa-plus">').'</i>', ['/role/create'], 
+
+['role'=>'modal-remote','title'=> 'Добавить виды работ','class'=>'btn btn-success', 'style' => 'margin-top: -8px; margin-left: 8px;']) ?>  ->  ['role'=>'modal-remote','title'=> '<?=\Yii::t('app', 'Добавить виды работ')?>','class'=>'btn btn-success', 'style' => 'margin-top: -8px; margin-left: 8px;']) ?> 
+
+//                            'buttons'=>Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; Удалить',  ->  //                            'buttons'=>Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; '.\Yii::t('app', 'Удалить'), 
+
+//                                    'data-confirm-title'=>'Удаление',  ->  //                                    'data-confirm-title'=>\Yii::t('app', 'Удаление'), 
+
+//                                    'data-confirm-message'=>'Вы действительно хотите удалить данный элемент?'  ->  //                                    'data-confirm-message'=>\Yii::t('app', 'Вы действительно хотите удалить данный элемент?') 
+
+'viewOptions'=>['role'=>'modal-remote','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Удаление',  ->  'data-confirm-title'=>\Yii::t('app', 'Удаление'), 
+
+'data-confirm-message'=>'Вы действительно хотите удалить данный элемент?'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы действительно хотите удалить данный элемент?')], 
+
+$this->title = "Безопасность | Настройки";  ->  $this->title = \Yii::t('app', 'Безопасность | Настройки'); 
+
+			<?= Html::submitButton('Поиск', ['class' => 'btn btn-primary pull-right', 'style' => 'margin-bottom: 15px;']) ?>  ->  			<?= Html::submitButton(\Yii::t('app', 'Поиск'), ['class' => 'btn btn-primary pull-right', 'style' => 'margin-bottom: 15px;']) ?> 
+
+			<?= Html::a('Очистить', ['profile/users'], ['class' => 'btn btn-light pull-right', 'style' => 'margin-right: 4px; margin-bottom: 15px;']) ?>  ->  			<?= Html::a(\Yii::t('app', 'Очистить'), ['profile/users'], ['class' => 'btn btn-light pull-right', 'style' => 'margin-right: 4px; margin-bottom: 15px;']) ?> 
+
+$this->title = 'Пользователи | Настройки';  ->  $this->title = \Yii::t('app', 'Пользователи | Настройки'); 
+
+<?= Html::a('Добавить <i class="fa fa-plus"></i>', ['user/create'],  ->  <?= Html::a(\Yii::t('app', 'Добавить <i class="fa fa-plus">').'</i>', ['user/create'], 
+
+'role'=>'modal-remote', 'title'=>'Удалить',  ->  'role'=>'modal-remote', 'title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы действительно хотите удалить данного пользователя?'  ->  'data-confirm-message'=>\Yii::t('app', 'Вы действительно хотите удалить данного пользователя?') 
+
+'role'=>'modal-remote', 'title'=>'Изменить',  ->  'role'=>'modal-remote', 'title'=>\Yii::t('app', 'Изменить'), 
+
+$this->title = 'Профиль';  ->  $this->title = \Yii::t('app', 'Профиль'); 
+
+])->label("Название отчета") ?>  ->  ])->label("<?=\Yii::t('app', 'Название отчета')?>") ?> 
+
+'title'=>'Удалить',  ->  'title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Удаление',  ->  'data-confirm-title'=>\Yii::t('app', 'Удаление'), 
+
+'data-confirm-message'=>'Вы действительно хотите удалить данную запись?'  ->  'data-confirm-message'=>\Yii::t('app', 'Вы действительно хотите удалить данную запись?') 
+
+<?= Html::submitButton('Применить', ['class' => 'btn btn-success', 'style' => 'margin-top: 22px;']) ?>  ->  <?= Html::submitButton(\Yii::t('app', 'Применить'), ['class' => 'btn btn-success', 'style' => 'margin-top: 22px;']) ?> 
+
+<?= Html::a('Экспорт', $exportUrl, ['class' => 'btn btn-warning', 'title' => 'Экспортировать в Excel', 'data-pjax' => 0, 'style' => 'margin-top: 22px;']) ?>  ->  <?= Html::a(\Yii::t('app', 'Экспорт'), $exportUrl, ['class' => 'btn btn-warning', 'title' => \Yii::t('app', 'Экспорт').'ировать в Excel', 'data-pjax' => 0, 'style' => 'margin-top: 22px;']) ?> 
+
+$this->title = 'Отчет';  ->  $this->title = \Yii::t('app', 'Отчет'); 
+
+<h4 class="panel-title">Отчет</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Отчет')?></h4> 
+
+'viewOptions'=>['role'=>'modal-remote','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Удаление',  ->  'data-confirm-title'=>\Yii::t('app', 'Удаление'), 
+
+'data-confirm-message'=>'Вы действительно хотите удалить данный элемент?'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы действительно хотите удалить данный элемент?')], 
+
+"Reservation" => "Журнал записи",  ->  "Reservation" => \Yii::t('app', 'Журнал записи'), 
+
+"Customization" => "Онлайн запись",  ->  "Customization" => \Yii::t('app', 'Онлайн запись'), 
+
+<?= $form->field($model, 'model')->dropDownList($dataModel, ['prompt' => 'Выберите ...']) ?>  ->  <?= $form->field($model, 'model')->dropDownList($dataModel, ['prompt' => \Yii::t('app', 'Выберите ...')]) ?> 
+
+<h5 style="color:#16508A;">Журнал записи</h5>  ->  <h5 style="color:#16508A;"><?=\Yii::t('app', 'Журнал записи')?></h5> 
+
+<h5 style="color:#16508A;">Онлайн запись</h5>  ->  <h5 style="color:#16508A;"><?=\Yii::t('app', 'Онлайн запись')?></h5> 
+
+$this->title = "Настройки полей";  ->  $this->title = \Yii::t('app', 'Настройки полей'); 
+
+<h4 class="panel-title">Настройки полей</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Настройки полей')?></h4> 
+
+'panelBeforeTemplate' =>    Html::a('Добавить <i class="fa fa-plus"></i>', ['create'],  ->  'panelBeforeTemplate' =>    Html::a(\Yii::t('app', 'Добавить <i class="fa fa-plus">').'</i>', ['create'], 
+
+['role'=>'modal-remote','title'=> 'Добавить','class'=>'btn btn-success']),  ->  ['role'=>'modal-remote','title'=> \Yii::t('app', 'Добавить'),'class'=>'btn btn-success']), 
+
+//                            'buttons'=>Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; Удалить',  ->  //                            'buttons'=>Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; '.\Yii::t('app', 'Удалить'), 
+
+//                                    'data-confirm-title'=>'Удаление',  ->  //                                    'data-confirm-title'=>\Yii::t('app', 'Удаление'), 
+
+//                                    'data-confirm-message'=>'Вы действительно хотите удалить данный элемент?'  ->  //                                    'data-confirm-message'=>\Yii::t('app', 'Вы действительно хотите удалить данный элемент?') 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+'label' => 'Дата бронирования',  ->  'label' => \Yii::t('app', 'Дата бронирования'), 
+
+'label' => 'Услуги',  ->  'label' => \Yii::t('app', 'Услуги'), 
+
+'label' => 'Сотрудник',  ->  'label' => \Yii::t('app', 'Сотрудник'), 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+	])->label('Услуги') ?>  ->  	])->label('<?=\Yii::t('app', 'Услуги')?>') ?> 
+
+Reservation::STATUS_WAITING => 'Ожидание клиента',  ->  Reservation::STATUS_WAITING => \Yii::t('app', 'Ожидание клиента'), 
+
+Reservation::STATUS_CONFIRMED => 'Клиент подтвердил',  ->  Reservation::STATUS_CONFIRMED => \Yii::t('app', 'Клиент подтвердил'), 
+
+Reservation::STATUS_CANCEL => 'Отмена',  ->  Reservation::STATUS_CANCEL => \Yii::t('app', 'Отмена'), 
+
+Reservation::STATUS_CAME => 'Клиент пришел',  ->  Reservation::STATUS_CAME => \Yii::t('app', 'Клиент пришел'), 
+
+Reservation::STATUS_NOT_CAME => 'Клиент не пришел',  ->  Reservation::STATUS_NOT_CAME => \Yii::t('app', 'Клиент не пришел'), 
+
+		<?= Html::submitButton('Поиск', ['class' => 'btn btn-primary pull-right']) ?>  ->  		<?= Html::submitButton(\Yii::t('app', 'Поиск'), ['class' => 'btn btn-primary pull-right']) ?> 
+
+$this->title = "Журнал записи";  ->  $this->title = \Yii::t('app', 'Журнал записи'); 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+			<td>Клиент</td>  ->  			<td><?=\Yii::t('app', 'Клиент')?></td> 
+
+			<td>Дата</td>  ->  			<td><?=\Yii::t('app', 'Дата')?></td> 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+$this->title = "Бронь позиция";  ->  $this->title = \Yii::t('app', 'Бронь позиция'); 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+'viewOptions'=>['role'=>'modal-remote','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Удаление',  ->  'data-confirm-title'=>\Yii::t('app', 'Удаление'), 
+
+'data-confirm-message'=>'Вы действительно хотите удалить данный элемент?'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы действительно хотите удалить данный элемент?')], 
+
+<h5 style="color:#16508A;">Компании</h5>  ->  <h5 style="color:#16508A;"><?=\Yii::t('app', 'Компании')?></h5> 
+
+<h5 style="color:#16508A;">Календарь</h5>  ->  <h5 style="color:#16508A;"><?=\Yii::t('app', 'Календарь')?></h5> 
+
+<h5 style="color:#16508A;">Журнал записи</h5>  ->  <h5 style="color:#16508A;"><?=\Yii::t('app', 'Журнал записи')?></h5> 
+
+<h5 style="color:#16508A;">Бронь позиция</h5>  ->  <h5 style="color:#16508A;"><?=\Yii::t('app', 'Бронь позиция')?></h5> 
+
+<h5 style="color:#16508A;">Онлайн запись</h5>  ->  <h5 style="color:#16508A;"><?=\Yii::t('app', 'Онлайн запись')?></h5> 
+
+<h5 style="color:#16508A;">Заказы</h5>  ->  <h5 style="color:#16508A;"><?=\Yii::t('app', 'Заказы')?></h5> 
+
+$this->title = "Роли";  ->  $this->title = \Yii::t('app', 'Роли'); 
+
+<h4 class="panel-title">Роли</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Роли')?></h4> 
+
+'panelBeforeTemplate' =>    Html::a('Добавить <i class="fa fa-plus"></i>', ['create'],  ->  'panelBeforeTemplate' =>    Html::a(\Yii::t('app', 'Добавить <i class="fa fa-plus">').'</i>', ['create'], 
+
+['role'=>'modal-remote','title'=> 'Добавить виды работ','class'=>'btn btn-success']).'&nbsp;'.  ->  ['role'=>'modal-remote','title'=> \Yii::t('app', 'Добавить виды работ'),'class'=>'btn btn-success']).'&nbsp;'. 
+
+['data-pjax'=>1, 'class'=>'btn btn-white', 'title'=>'Обновить']),  ->  ['data-pjax'=>1, 'class'=>'btn btn-white', 'title'=>\Yii::t('app', 'Обновить')]), 
+
+//                            'buttons'=>Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; Удалить',  ->  //                            'buttons'=>Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; '.\Yii::t('app', 'Удалить'), 
+
+//                                    'data-confirm-title'=>'Удаление',  ->  //                                    'data-confirm-title'=>\Yii::t('app', 'Удаление'), 
+
+//                                    'data-confirm-message'=>'Вы действительно хотите удалить данный элемент?'  ->  //                                    'data-confirm-message'=>\Yii::t('app', 'Вы действительно хотите удалить данный элемент?') 
+
+'viewOptions'=>['data-pjax'=>'0','title'=>'Просмотр','data-toggle'=>'tooltip'],  ->  'viewOptions'=>['data-pjax'=>'0','title'=>\Yii::t('app', 'Просмотр'),'data-toggle'=>'tooltip'], 
+
+'updateOptions'=>['role'=>'modal-remote','title'=>'Изменить', 'data-toggle'=>'tooltip'],  ->  'updateOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Изменить'), 'data-toggle'=>'tooltip'], 
+
+'deleteOptions'=>['role'=>'modal-remote','title'=>'Удалить',  ->  'deleteOptions'=>['role'=>'modal-remote','title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы уверены что хотите удалить эту позицию'],  ->  'data-confirm-message'=>\Yii::t('app', 'Вы уверены что хотите удалить эту позицию')], 
+
+<?= Html::a('Загрузить', '#', ['class' => 'btn btn-primary', 'onclick' => "event.preventDefault(); $('#salon-fileavatarka').trigger('click');"]) ?>  ->  <?= Html::a(\Yii::t('app', 'Загрузить'), '#', ['class' => 'btn btn-primary', 'onclick' => "event.preventDefault(); $('#salon-fileavatarka').trigger('click');"]) ?> 
+
+'previewsContainer' => 'preview-images', // <-- уникальные previewsContainer  ->  'previewsContainer' => 'preview-images', // <-- \Yii::t('app', уникальные previewsContainer) 
+
+html += '<td><button data-delete=\"'+path.url+'\" class=\"btn btn-danger cancel\"><i class=\"glyphicon glyphicon-ban-circle\"></i><span>Удалить</span></button></td></tr>';  ->  html += '<td><button data-delete=\"'+path.url+'\" class=\"btn btn-danger cancel\"><i class=\"glyphicon glyphicon-ban-circle\"></i><span>Удалить</span></button></td></tr>'; 
+
+<span>Удалить</span>  ->  <span><?=\Yii::t('app', 'Удалить')?></span> 
+
+	        <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  	        <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+<?= $form->field($model, 'fileUploading', ['cols' => 12, 'colsOptionsStr' => " ", "checkPermission" => false])->fileInput()->label('Файл') ?>  ->  <?= $form->field($model, 'fileUploading', ['cols' => 12, 'colsOptionsStr' => " ", "checkPermission" => false])->fileInput()->label(\Yii::t('app', 'Файл')) ?> 
+
+<?= Html::a('Шаблон импорта', ['temp'], ['title'=> 'Шаблон импорта', 'class'=>'btn btn-warning']) ?>  ->  <?= Html::a(\Yii::t('app', 'Шаблон импорта'), ['temp'], ['title'=> \Yii::t('app', 'Шаблон импорта'), 'class'=>'btn btn-warning']) ?> 
+
+$this->title = "Филиалы";  ->  $this->title = \Yii::t('app', 'Филиалы'); 
+
+['role'=>'modal-remote','title'=> 'Импорт', 'class'=>'btn btn-warning']),  ->  ['role'=>'modal-remote','title'=> \Yii::t('app', 'Импорт'), 'class'=>'btn btn-warning']), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+<h4 class="panel-title">Информация</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Информация')?></h4> 
+
+$this->title = "Настройки системы";  ->  $this->title = \Yii::t('app', 'Настройки системы'); 
+
+<h4 class="panel-title">Настройки</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Настройки')?></h4> 
+
+class="btn btn-success btn-sm">Сохранить  ->  class="btn btn-success btn-sm"><?=\Yii::t('app', 'Сохранить')?> 
+
+<h4><i class="fa fa-exclamation-triangle"></i> Настроек в базе данных не обнаружено!  ->  <h4><i class="fa fa-exclamation-triangle"></i> <?=\Yii::t('app', 'Настроек в базе данных не обнаружено!')?> 
+
+Убедитесь, что все миграции выполнены без ошибок  ->  <?=\Yii::t('app', 'Убедитесь, что все миграции выполнены без ошибок')?> 
+
+<h3><img src="/login-page/images/icon-1.svg" alt=""> Zkontrolujte svůj e-mail</h3>  ->  <h3><img src="/login-page/images/icon-1.svg" alt=""> Zkontrolujte sv<?=\Yii::t('app', 'ůj e-mail</h3>')?> 
+
+<p class="p-tm">Na <span><?= $model->email ?></span> jsme odeslali nové heslo</p>  ->  <p class="p-tm">Na <span><?= $model->email ?></span> jsme odeslali nov<?=\Yii::t('app', 'é heslo')?></p> 
+
+<p class="explanation"><?= \yii\helpers\Html::a('Zpět na stránku přihlášení', ['site/login']) ?></p>  ->  <p class="explanation"><?= \yii\helpers\Html::a('Zp\Yii::t('app', ět na stránku přihlášení', ['site/login']) ?>)</p> 
+
+$this->title = 'Восстановления пароля';  ->  $this->title = \Yii::t('app', 'Восстановления пароля'); 
+
+<h3>Zapomenuté heslo</h3>  ->  <h3>Zapomenut<?=\Yii::t('app', 'é heslo</h3>')?> 
+
+<p>Zadejte svúj uživatelský e-mail a my vám na néj zašleme nové heslo</p>  ->  <p>Zadejte sv<?=\Yii::t('app', 'új uživatelský e-mail a my vám na néj zašleme nové heslo')?></p> 
+
+->label('Váš uživatelský e-mail')  ->  ->label('V\Yii::t('app', áš uživatelský e-mail')) 
+
+<?= Html::submitButton('OBNOVENÍ HESLA', ['class' => 'rainbow-button', 'name' => 'login-button']) ?>  ->  <?= Html::submitButton('OBNOVEN\Yii::t('app', Í HESLA', ['class' => 'rainbow-button', 'name' => 'login-button']) ?>) 
+
+<p class="explanation"><?= Html::a('Zpět na stránku přihlášení', ['site/login']) ?></p>  ->  <p class="explanation"><?= Html::a('Zp\Yii::t('app', ět na stránku přihlášení', ['site/login']) ?>)</p> 
+
+$this->title = 'Авторизация';  ->  $this->title = \Yii::t('app', 'Авторизация'); 
+
+<p class="p-600">Zadejte svůj email a heslo,<br> <?= Html::a(' nebo se zaregistrujte', ['site/register']) ?></p>  ->  <p class="p-600">Zadejte svůj email a heslo,<br> <?= Html::a(' nebo se zaregistrujte', ['site/register']) ?></p> 
+
+<?= Html::a('Zapomněli jste heslo?', ['site/forget-password'], ['class' => 'password-tm']) ?>  ->  <?= Html::a('Zapomn\Yii::t('app', ěli jste heslo?', ['site/forget-password'], ['class' => 'password-tm']) ?>) 
+
+<?= Html::submitButton('PŘIHLÁSIT SE', ['class' => 'rainbow-button', 'name' => 'login-button']) ?>  ->  <?= Html::submitButton('P\Yii::t('app', ŘIHLÁSIT SE', ['class' => 'rainbow-button', 'name' => 'login-button']) ?>) 
+
+$this->title = 'Регистрация';  ->  $this->title = \Yii::t('app', 'Регистрация'); 
+
+<p class="p-600">Zadejte údaje pro registraci</p>  ->  <p class="p-600">Zadejte <?=\Yii::t('app', 'údaje pro registraci')?></p> 
+
+'Auto (Kompletační studia, autoservisy a myčky aut)' => 'Auto (Kompletační studia, autoservisy a myčky aut)',  ->  'Auto (Kompleta\Yii::t('app', ční studia, autoservisy a myčky aut)' => 'Auto (Kompletační studia, autoservisy a myčky aut)',) 
+
+'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxační centra)' => 'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxační centra)',  ->  'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxa\Yii::t('app', ční centra)' => 'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxační centra)',) 
+
+'Krása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)' => 'Krása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)',  ->  'Kr\Yii::t('app', ása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)' => 'Krása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)',) 
+
+'Zábava (Kina, bowling, biliár aj.)' => 'Zábava (Kina, bowling, biliár aj.)',  ->  'Z\Yii::t('app', ábava (Kina, bowling, biliár aj.)' => 'Zábava (Kina, bowling, biliár aj.)',) 
+
+'Maloobchod (Řešení pro maloobchody)' => 'Maloobchod (Řešení pro maloobchody)',  ->  'Maloobchod (\Yii::t('app', Řešení pro maloobchody)' => 'Maloobchod (Řešení pro maloobchody)',) 
+
+'HoReCa (Hotely, kavárny, bary, restaurace)' => 'HoReCa (Hotely, kavárny, bary, restaurace)',  ->  'HoReCa (Hotely, kav\Yii::t('app', árny, bary, restaurace)' => 'HoReCa (Hotely, kavárny, bary, restaurace)',) 
+
+<a href="" class="promo-code">Mám promo kód</a>  ->  <a href="" class="promo-code">M<?=\Yii::t('app', 'ám promo kód')?></a> 
+
+<p class="explanation explanation2">Kliknutím na tlačítko souhlasíte s <a href="https://bondus.cz/" target="_blank">Obchodními podmínkami</a></p>  ->  <p class="explanation explanation2">Kliknut<?=\Yii::t('app', 'ím na tlačítko souhlasíte s <a href="https://bondus.cz/" target="_blank">Obchodními podmínkami')?></a></p> 
+
+no_results_text: 'Совпадений не найдено',  ->  no_results_text: \Yii::t('app', 'Совпадений не найдено'), 
+
+placeholder_text_single: 'Vyberte své zaměření'  ->  placeholder_text_single: 'Vyberte sv\Yii::t('app', é zaměření') 
+
+<h3><img src="/login-page/images/icon-2.svg" alt=""> Registrace úspěšně dokončena</h3>  ->  <h3><img src="/login-page/images/icon-2.svg" alt=""> Registrace <?=\Yii::t('app', 'úspěšně dokončena</h3>')?> 
+
+<p class="p-info">Zároveň testujeme unikátní VĚRNOSTNÍ produkt BondUs. Přidejte se k nám, buďte informováni o nových akcích, přidejte si naši informační kartu BondUs do svého telefonu</p>  ->  <p class="p-info">Z<?=\Yii::t('app', 'ároveň testujeme unikátní VĚRNOSTNÍ produkt BondUs. Přidejte se k nám, buďte informováni o nových akcích, přidejte si naši informační kartu BondUs do svého telefonu')?></p> 
+
+<p><?= \yii\helpers\Html::a('Přihlašovací stránka', ['site/login']) ?></p>  ->  <p><?= \yii\helpers\Html::a('P\Yii::t('app', řihlašovací stránka', ['site/login']) ?>)</p> 
+
+'role'=>'modal-remote', 'title'=>'Удалить',  ->  'role'=>'modal-remote', 'title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы действительно хотите удалить данную запись?'  ->  'data-confirm-message'=>\Yii::t('app', 'Вы действительно хотите удалить данную запись?') 
+
+'role'=>'modal-remote', 'title'=>'Изменить',  ->  'role'=>'modal-remote', 'title'=>\Yii::t('app', 'Изменить'), 
+
+<input type="" class="form-control" value="<?=$whiteNameSearch?>" name="whiteNameSearch" placeholder="Поиск..." onchange="$('#white-name-form').submit();">  ->  <input type="" class="form-control" value="<?=$whiteNameSearch?>" name="whiteNameSearch" placeholder="<?=\Yii::t('app', 'Поиск...')?>" onchange="$('#white-name-form').submit();"> 
+
+<?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+$this->title = "Шаблоны документов";  ->  $this->title = \Yii::t('app', 'Шаблоны документов'); 
+
+<h4 class="panel-title">Шаблоны документов</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Шаблоны документов')?></h4> 
+
+'panelBeforeTemplate' =>    Html::a('Добавить <i class="fa fa-plus"></i>', ['create'],  ->  'panelBeforeTemplate' =>    Html::a(\Yii::t('app', 'Добавить <i class="fa fa-plus">').'</i>', ['create'], 
+
+['data-pjax'=>'0','title'=> 'Добавить шаблон','class'=>'btn btn-success']).'&nbsp;'.  ->  ['data-pjax'=>'0','title'=> \Yii::t('app', 'Добавить шаблон'),'class'=>'btn btn-success']).'&nbsp;'. 
+
+['data-pjax'=>1, 'class'=>'btn btn-white', 'title'=>'Обновить']),  ->  ['data-pjax'=>1, 'class'=>'btn btn-white', 'title'=>\Yii::t('app', 'Обновить')]), 
+
+'buttons'=>Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; Удалить',  ->  'buttons'=>Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; '.\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы действительно хотите удалить данный элемент?'  ->  'data-confirm-message'=>\Yii::t('app', 'Вы действительно хотите удалить данный элемент?') 
+
+'role'=>'modal-remote', 'title'=>'Удалить',  ->  'role'=>'modal-remote', 'title'=>\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title'=>'Вы уверены?',  ->  'data-confirm-title'=>\Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message'=>'Вы действительно хотите удалить данного пользователя?'  ->  'data-confirm-message'=>\Yii::t('app', 'Вы действительно хотите удалить данного пользователя?') 
+
+'role'=>'modal-remote', 'title'=>'Изменить',  ->  'role'=>'modal-remote', 'title'=>\Yii::t('app', 'Изменить'), 
+
+<?= Html::a('Загрузить', '#', ['class' => 'btn btn-block btn-primary', 'onclick' => "event.preventDefault(); $('#user-avatarfile').trigger('click');", 'style' => 'margin-top: 10px;']) ?>  ->  <?= Html::a(\Yii::t('app', 'Загрузить'), '#', ['class' => 'btn btn-block btn-primary', 'onclick' => "event.preventDefault(); $('#user-avatarfile').trigger('click');", 'style' => 'margin-top: 10px;']) ?> 
+
+<?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>  ->  <?= Html::submitButton($model->isNewRecord ? \Yii::t('app', 'Создать') : 'Изменить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?> 
+
+$this->title = "Пользователи";  ->  $this->title = \Yii::t('app', 'Пользователи'); 
+
+<h4 class="panel-title">Пользователи</h4>  ->  <h4 class="panel-title"><?=\Yii::t('app', 'Пользователи')?></h4> 
+
+'panelBeforeTemplate' => Html::a('Добавить <i class="fa fa-plus"></i>', ['create'],  ->  'panelBeforeTemplate' => Html::a(\Yii::t('app', 'Добавить <i class="fa fa-plus">').'</i>', ['create'], 
+
+'title' => 'Добавить пользователя',  ->  'title' => \Yii::t('app', 'Добавить пользователя'), 
+
+'buttons' => Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; Удалить',  ->  'buttons' => Html::a('<i class="glyphicon glyphicon-trash"></i>&nbsp; '.\Yii::t('app', 'Удалить'), 
+
+'data-confirm-title' => 'Вы уверены?',  ->  'data-confirm-title' => \Yii::t('app', 'Вы уверены?'), 
+
+'data-confirm-message' => 'Вы уверены что хотите удалить данную запись?'  ->  'data-confirm-message' => \Yii::t('app', 'Вы уверены что хотите удалить данную запись?') 
+
+Рейсы.xls 
+Загружения 
+Удачно загруженно: {$success} <br/> Ошибка загрузки: {$error} 
+Ошибка при загрузке файла 
+Выберите файл 
+Создание Услуг успешно завершено 
+ОК 
+Создать еще 
+Запрашиваемой страницы не существует. 
+Заявка #{$reserv->id} 
+Отмена заявки 
+Заявка отменена 
+Добавить Онлайн Запись 
+Отмена 
+Создать 
+Администратор 
+компания # 
+Изменить 
+Одобрить 
+Компания «{$model->name}» одобрена 
+Добавить компанию 
+Создание компании успешно завершено 
+Изменить компанию # 
+Сохранить 
+Генерирует новый АПИ ключ 
+Новый АПИ ключ 
+Генерит или удаляет АПИ ключ компании 
+Идентификатор компании 
+Создание Сотрудника успешно завершено 
+настройка 
+Добавить настройку 
+Изменить настройку 
+Отчет 
+Отчет.xlsx 
+без этой строки при открытии файла xlsx ошибка!!!!!! 
+Информация 
+Добавить Роль 
+Добавить 
+Изменить Роль 
+Ошибка удаления 
+Эта роль используется 
+Удаление 
+Выбранные записи были удалены, кроме {$errorCount} шт. так как они используются в других записях 
+Запрашиваемая страница не найдена. 
+Подчищаем бэкапы 
+Папка на Яндекс Диске (уже должна быть создана). 
+Запрашиваем URL для загрузки. 
+Если ошибки нет, то отправляем файл на полученный URL. 
+Файл успешно загружен. 
+Минимальная дата:  
+Запускаем чистку - если файлов больше 20 
+Дата бэкапа:  
+Ошибка удаления бэкапа.  
+Бэкап удален 
+Для изменения пароля 
+Сменить пароль 
+Ваш пароль успешно изменен 
+Закрыть 
+Кандидату пользователя проставляем дату входа 
+Вы успешно зарегистрировались 
+Смена локали 
+шаблон # 
+Добавить шаблон 
+Создание шаблона успешно завершено 
+Изменить шаблон # 
+Изменить пользователя # 
+пользователь # 
+Пользователь # 
+Экшен для изменения логина прямо из таблицы. С помощью плагина Editable 
+Добавить пользователя 
+Пользователь успешно добавлен 
+Изменяет пароль у конкретного пользователя 
+Пароль успешно изменен 
+Понедельник 
+Вторник 
+Среда 
+Четверг 
+Пятница 
+Суббота 
+Воскресенье 
+Под данным телефоном клиент уже существует 
+Наименование 
+Тип 
+Является ли супер компанией 
+Доступ (вкл/выкл) 
+Дата и время последней активности 
+Баланс 
+Дата и время создания 
+АПИ ключ 
+Дата регистрации 
+Адрес 
+Телефон 
+Поставщик 
+Покупатель 
+Отправляет письмо 
+Получает компанию по токену 
+Генерация нового токена 
+М 
+Ж 
+Да 
+Нет 
+Название 
+Основаная модель 
+Журнал записи 
+Онлайн запись 
+Клиент -  
+Сотрудник -  
+Филиал -  
+×</button>'; 
+Бронь 
+Завершено 
+Отменена 
+Ожидание клиента 
+Клиент пришел 
+Клиент не пришел 
+Клиент подтвердил 
+Наличные 
+Картой 
+Новая информация по заявке ({$value->status}) \n 
+Начало {$value->start_time} \n 
+Завершение услуг: {$value->completion_time}\n 
+Услуги: {$serviceTitle}\n 
+Клиент: {$clientInfo}\n 
+Перейти в лк  \n 
+Роль 
+Создание 
+Изменение 
+Просмотр 
+Просмотр всех 
+Исключенные поля 
+Справочники 
+Текст 
+Логин 
+Должность 
+ФИО 
+Доступ 
+Зашифрованный пароль 
+Дата создания 
+Можно удалить или нельзя 
+Токен бота для клиентов 
+Шаг нарезки в минутах 
+Обработка персональных данных 
+Краткое описание 
+Описание 
+Аватарка 
+Доп фото 
+Номер телефона 
+Рекомендуемый салон 
+Минимальная цена 
+Длительность в минутах 
+Перерыв в минутах 
+Сотрудники 
+Филиалы 
+График 
+Категории 
+Название для онлайн записи 
+Изображение 
+Максимальная цена 
+Имя 
+Емаил 
+Телеграм 
+Шаг 
+Филиал 
+Токен 
+Источник 
+Пароль 
+Токен пушей 
+Клиент 
+Сотрудник 
+Время начала 
+время завершения 
+Дата брони 
+Статус 
+Услуги 
+Стоимость 
+Тип оплаты 
+День недели 
+Переменная 
+Значение 
+почта 
+Количество одновременно обслуживаемых клиентов 
+Показывать сотрудника на странице бронирования 
+Пользователь 
+Фамилия 
+Дата приема на работу 
+Гражданство 
+Пол 
+Паспортные данные 
+ИИН 
+Номер страхового свидетельства 
+Специализация 
+Дата и время 
+Оценка 
+Дата 
+Причина 
+Услуга 
+Резерв 
+Вы авторизованы под пользователем «{$this->login}». Удаление невозможно! 
+Этот пользователь не может подлежать удалению. Удаление невозможно! 
+Пароль перед сохранением:  
+Админ компании или нет 
+ávná e-mailová adresa'); 
+Востановление пароля 
+Доброго времени суток 
+Ваш новый пароль: <b>{$user->password}") 
+Колонки 
+Этот email уже зарегистрирован 
+Необходимо согласие 
+ďte heslo', 
+še zaměření', 
+Č', 
+éno', 
+říjmení', 
+ě', 
+ód', 
+Я принимаю условия соглашения и разрешаю обработку персональных данных 
+Владелец 
+Супервизор 
+Восстановления пароля 
+Введите свой email для восстановления пароля 
+Далее 
+Авторизация 
+Введите данные для авторизации 
+Войти 
+Восстановить пароль 
+Регистрация 
+Введите данные для регистрации 
+Выберите вариант 
+Копировать 
+Удалить 
+Вы уверены? 
+Вы уверены что хотите удалить эту позицию 
+Онлайн 
+Загрузить 
+Файл 
+Шаблон импорта 
+Заказы</x:Name> 
+Услуги график 
+Импорт 
+ФИО:  
+Телефон:  
+Дата прошлого визита:  
+Время записи:  
+Услуга:  
+Стоимость:  
+Сегодня 
+Завтра 
+После завтра 
+Отменить 
+Вы уверены что хотите отменить данную заявку 
+ТЕСТОВОЕ ТЕЛО 
+Неделя назад 
+Неделя вперед 
+ВС 
+Комментарий 
+Комментарий мастеров 
+ční studia, autoservisy a myčky aut)' => 'Auto (Kompletační studia, autoservisy a myčky aut)', 
+ční centra)' => 'Fitness a Wellness (Fitness studia, posilovny, sauny, relaxační centra)', 
+ása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)' => 'Krása a Zdraví (Kosmetické salony, kosmetologie, masáže, kadeřnictví)', 
+ábava (Kina, bowling, biliár aj.)' => 'Zábava (Kina, bowling, biliár aj.)', 
+Řešení pro maloobchody)' => 'Maloobchod (Řešení pro maloobchody)', 
+árny, bary, restaurace)' => 'HoReCa (Hotely, kavárny, bary, restaurace)', 
+Компании 
+Добавить <i class="fa fa-plus"> 
+Обновить 
+Вы действительно хотите удалить данный элемент? 
+Основная информация 
+Реквизиты 
+Суперкомпания 
+АПИ ключ:  
+Сгенерировать заново 
+Доступ к АПИ запрещен, для получения доступа обратитесь к администратору системы  
+Редактировать 
+Имя бота для сотрудника 
+Ссылка виджета 
+Общие настройки 
+Виджет 
+Разместить код на сайт 
+✔️ Ваши клиенты смогут записаться к вам через instagram <a href="#" class="btn btn-sm btn-primary"><i class="fa fa-instagram">                     
+✔️ Если у вас есть страница Facebook, пожалуйста, следуйте инструкциям <a href="https://www.facebook.com/help/977869848936797?locale=en_US" target="_blank">здесь 
+✔️ Вы можете просто разместить данную ссылку на своем сайте, создав кнопку бронирования или отредактировав уже существующую. Для этого вам может понадобиться помощь специалиста.      
+✔️ Все выше перечисленными образами, Вы превращаете онлайн посетителей в своих клиентов. 
+Телеграмм бот 
+Токен бота клиента 
+Токен не найден 
+Бот для записи 
+Скопировано в буфер обмена 
+Вчера 
+Неделя 
+Пред. неделя 
+Месяц 
+Пред. месяц 
+Обороты денежных средств 
+Банк 
+Касса 
+Приход 
+Расход 
+Остаток 
+Остатки денежных средств 
+Общие итоги 
+Показатели по менеджерам 
+Задолжность 
+Контрагент 
+ООО «Вкусные продукты» 
+Всего 
+Показатели компании 
+Диаграмма по менеджерам 
+Март 
+Принято заказов 
+Прибыль 
+Сумма заказов 
+Менеджер 
+Избраное 
+Поиск 
+Выйти 
+Аuthorization 
+Ошибка! 
+× 
+Выберите формат файла для экспорта 
+Вы действительно хотите отменить запись 
+Запись успешно отменена 
+Во время запроса произошла ошибка 
+Уведомление! 
+Внимание! 
+© 2020 Muson - <a href="http://laborasyon.com" target="_blank">Laborasyon 
+Сотрудник онлайн 
+Сотрудник график 
+Не рабочие дни 
+Уведомления 
+Заказы 
+Разместить виджет 
+✔️ Ваши клиенты смогут записаться к вам через instagram. Подробнее здесь <a href="https://bondus.cz/instagramlink" target="_blank" class="btn btn-sm btn-primary"><i class="fa fa-instagram">                     
+✔️ Если у вас есть страница <b>Facebook, пожалуйста, следуйте инструкциям здесь <a href="https://www.facebook.com/help/977869848936797?locale=en_US" class="btn btn-sm btn-primary"><i class="fa fa-facebook"> 
+✔️ Для настройки ботов, перейдите в <a href="https://bondus.cz/startonline#rec424076175" target="_blank">Базу Знаний 
+Роли 
+Добавить виды работ 
+Безопасность | Настройки 
+Очистить 
+Пользователи | Настройки 
+Вы действительно хотите удалить данного пользователя? 
+Профиль 
+Название отчета 
+Вы действительно хотите удалить данную запись? 
+Применить 
+Экспорт 
+Выберите ... 
+Настройки полей 
+Дата бронирования 
+Бронь позиция 
+Календарь 
+уникальные previewsContainer 
+Удалить</button></tr> 
+Настройки системы 
+Настройки 
+Настроек в базе данных не обнаружено! 
+Убедитесь, что все миграции выполнены без ошибок 
+ůj e-mail</h3> 
+é heslo 
+ět na stránku přihlášení', ['site/login']) ?> 
+é heslo</h3> 
+új uživatelský e-mail a my vám na néj zašleme nové heslo 
+áš uživatelský e-mail') 
+Í HESLA', ['class' => 'rainbow-button', 'name' => 'login-button']) ?> 
+ůj email a heslo,  
+ěli jste heslo?', ['site/forget-password'], ['class' => 'password-tm']) ?> 
+ŘIHLÁSIT SE', ['class' => 'rainbow-button', 'name' => 'login-button']) ?> 
+údaje pro registraci 
+ám promo kód 
+ím na tlačítko souhlasíte s <a href="https://bondus.cz/" target="_blank">Obchodními podmínkami 
+Совпадений не найдено 
+é zaměření' 
+úspěšně dokončena</h3> 
+ároveň testujeme unikátní VĚRNOSTNÍ produkt BondUs. Přidejte se k nám, buďte informováni o nových akcích, přidejte si naši informační kartu BondUs do svého telefonu 
+řihlašovací stránka', ['site/login']) ?> 
+Поиск... 
+Шаблоны документов 
+Пользователи 
+Вы уверены что хотите удалить данную запись? 

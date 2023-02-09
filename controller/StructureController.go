@@ -46,6 +46,9 @@ func GetStruct(list []models.ListCatalog, up []string) []models.GroupLine {
 					if strings.Contains(line, "Yii::t('app'") {
 						continue
 					}
+					if strings.Contains(line, "const") {
+						continue
+					}
 					_, _, word := GetLine(line)
 					if !utils.SearchArrString(books, word) {
 						books = append(books, word)
